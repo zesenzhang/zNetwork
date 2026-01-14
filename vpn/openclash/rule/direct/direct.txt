@@ -3,104 +3,106 @@
 # 直连域名（中国 / 本地服务）
 # =========================
 
-DOMAIN-SUFFIX,qpic.cn
-DOMAIN-SUFFIX,kuwo.cn
-DOMAIN-SUFFIX,dyndns.com
-DOMAIN-SUFFIX,douyucdn.cn
-DOMAIN-SUFFIX,douyucdn2.cn
-DOMAIN-SUFFIX,staticfile.net
-DOMAIN-SUFFIX,imgdb.cc
-DOMAIN-SUFFIX,staticfile.org
-DOMAIN-SUFFIX,mysmartadvisor.com
-DOMAIN-SUFFIX,gov.cn
-DOMAIN-SUFFIX,csdn.net
-DOMAIN-SUFFIX,csdnimg.cn
-DOMAIN-SUFFIX,1panel.cn
+payload:
+  - 'qpic.cn'
+  - 'kuwo.cn'
+  - 'dyndns.com'
+  - 'douyucdn.cn'
+  - 'douyucdn2.cn'
+  - 'staticfile.net'
+  - 'imgdb.cc'
+  - 'staticfile.org'
+  - 'mysmartadvisor.com'
+  - 'gov.cn'
+  - 'csdn.net'
+  - 'csdnimg.cn'
+  - '1panel.cn'
 
-# Apple China
-DOMAIN-SUFFIX,apple.com.cn
+  # Apple China
+  - 'apple.com.cn'
 
-# Feishu
-DOMAIN-SUFFIX,feishu.cn
+  # Feishu
+  - 'feishu.cn'
 
-# Sony / PlayStation
-DOMAIN-SUFFIX,playstation.com
-DOMAIN-SUFFIX,playstation.net
+  # Sony / PlayStation
+  - 'playstation.com'
+  - 'playstation.net'
 
-# Plex
-DOMAIN-SUFFIX,plex.tv
-DOMAIN-SUFFIX,plex.direct
+  # Plex
+  - 'plex.tv'
+  - 'plex.direct'
 
-# Game
-DOMAIN-SUFFIX,ali213.net
+  # Game
+  - 'ali213.net'
 
-# Design / Ads
-DOMAIN-SUFFIX,zcool.com.cn
-DOMAIN-SUFFIX,zcool.cn
-DOMAIN-SUFFIX,hellorf.com
-DOMAIN-SUFFIX,wwads.cn
+  # Design / Ads
+  - 'zcool.com.cn'
+  - 'zcool.cn'
+  - 'hellorf.com'
+  - 'wwads.cn'
 
-# Airport panel
-DOMAIN-SUFFIX,tube-cat.com
+  # Airport panel
+  - 'tube-cat.com'
 
-# WPS / Kingsoft Docs
-DOMAIN-SUFFIX,kdocs.cn
+  # WPS / Kingsoft Docs
+  - 'kdocs.cn'
 
-# Sam's Club
-DOMAIN-SUFFIX,walmartmobile.cn
+  # Sam's Club
+  - 'walmartmobile.cn'
 
-# Common CN
-DOMAIN-SUFFIX,baidu.com
-DOMAIN-SUFFIX,govwza.cn
-DOMAIN-SUFFIX,xunlei.cn
-DOMAIN-SUFFIX,xunlei.com
-DOMAIN-SUFFIX,xunlei8.cc
-DOMAIN-SUFFIX,jd.com
-DOMAIN-SUFFIX,baidupcs.com
-DOMAIN-SUFFIX,taobao.com
-DOMAIN-SUFFIX,tmall.com
+  # Common CN
+  - 'baidu.com'
+  - 'govwza.cn'
+  - 'xunlei.cn'
+  - 'xunlei.com'
+  - 'xunlei8.cc'
+  - 'jd.com'
+  - 'baidupcs.com'
+  - 'taobao.com'
+  - 'tmall.com'
 
-# Zesen Server
-DOMAIN-SUFFIX,zesen.fun
-DOMAIN-SUFFIX,zezecool.com
+  # Zesen Server
+  - 'zesen.fun'
+  - 'zezecool.com'
 
-# Cloudflare CN
-DOMAIN-SUFFIX,cloudflare-cn.com
+  # Cloudflare CN
+  - 'cloudflare-cn.com'
 
-# IPTV
-DOMAIN-SUFFIX,cntv.sbs
-DOMAIN-SUFFIX,fanmingming.com
-DOMAIN-SUFFIX,0472.org
-DOMAIN-SUFFIX,cgtn.com
-DOMAIN-SUFFIX,cztv.com
+  # IPTV
+  - 'cntv.sbs'
+  - 'fanmingming.com'
+  - '0472.org'
+  - 'cgtn.com'
+  - 'cztv.com'
 
-# Synology
-DOMAIN-SUFFIX,synology.cn
-DOMAIN-SUFFIX,synologyupdate.com
-DOMAIN-SUFFIX,synology.com
-DOMAIN-SUFFIX,synocommunity.com
+  # Synology
+  - 'synology.cn'
+  - 'synologyupdate.com'
+  - 'synology.com'
+  - 'synocommunity.com'
 
-# BT / Resource
-DOMAIN-SUFFIX,1337.abcvg.info
-DOMAIN-SUFFIX,itzmx.com
+  # BT / Resource
+  - '1337.abcvg.info'
+  - 'itzmx.com'
 
-# Tencent
-DOMAIN-SUFFIX,tencent.com
-DOMAIN-SUFFIX,woa.com
-DOMAIN-SUFFIX,qq.com
-DOMAIN-SUFFIX,v.qq.com
-DOMAIN-SUFFIX,idqqimg.com
-DOMAIN-SUFFIX,gtimg.cn
+  # Tencent
+  - 'tencent.com'
+  - 'woa.com'
+  - 'qq.com'
+  - 'v.qq.com'
+  - 'idqqimg.com'
+  - 'gtimg.cn'
 
-# Microsoft CN
-DOMAIN-SUFFIX,iwin10.com
+  # Microsoft CN
+  - 'iwin10.com'
 
-# Steam China CDN
-DOMAIN-SUFFIX,steampowered.com
-DOMAIN-SUFFIX,steamcontent.com
-DOMAIN-SUFFIX,steamchina.com
-DOMAIN-SUFFIX,myqcloud.com
-DOMAIN-SUFFIX,bscstorage.net
-DOMAIN-SUFFIX,eccdnx.com
-DOMAIN-SUFFIX,pinyuncloud.com
-DOMAIN-SUFFIX,mileweb.cs.steampowered.com.8686c.com
+  # Steam China CDN
+  - 'steampowered.com'
+  - 'steamcontent.com'
+  - 'steamchina.com'
+  - 'myqcloud.com'
+  - 'bscstorage.net'
+  - 'eccdnx.com'
+  - 'pinyuncloud.com'
+  - 'mileweb.cs.steampowered.com.8686c.com'
+
