@@ -60,7 +60,7 @@ DOMAIN-SUFFIX,baidupcs.com
 DOMAIN-SUFFIX,taobao.com
 DOMAIN-SUFFIX,tmall.com
 
-# Personal
+# Zesen Server
 DOMAIN-SUFFIX,zesen.fun
 DOMAIN-SUFFIX,zezecool.com
 
