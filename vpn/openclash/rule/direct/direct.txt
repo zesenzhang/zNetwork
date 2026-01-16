@@ -29,8 +29,9 @@ payload:
   - 'playstation.net'
 
   # Plex
-  - 'plex.tv'
-  - 'plex.direct'
+  - DOMAIN-KEYWORD,plex
+  - DOMAIN-SUFFIX,plex.tv
+  - DOMAIN-SUFFIX,plex.direct
 
   # Game
   - 'ali213.net'
