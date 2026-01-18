@@ -1,8 +1,8 @@
 payload:
   # --- plex ---
-  - DOMAIN-KEYWORD,plex
-  - DOMAIN-SUFFIX,plex.tv
-  - DOMAIN-SUFFIX,plex.online
+  # - DOMAIN-KEYWORD,plex
+  # - DOMAIN-SUFFIX,plex.tv
+  # - DOMAIN-SUFFIX,plex.online
 
   # --- Google ---
   - DOMAIN-SUFFIX,doubleclick.net
