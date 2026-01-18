@@ -26,7 +26,7 @@ payload:
   - 'googleapis.cn'
   - 'google.com.tw'
   - 'google.com.hk'
-  - 'google.com'
+  - 'bl.google.com'
   - 'gstatic.com'
   - 'googlevideo.com'
   - 'googleapis.com'
