@@ -1,53 +1,51 @@
-# 常用 AI 服务综合规则集 (支持 Web & App 多端)
-# 包含 OpenAI, Gemini, Claude, Copilot, Perplexity, Grok 等
 payload:
-  # === OpenAI / ChatGPT ===
-  - '+.openai.com'             # OpenAI 官网及 API
-  - '+.chatgpt.com'            # ChatGPT 新域名
-  - '+.oaistatic.com'          # OpenAI 静态资源
-  - '+.oaiusercontent.com'     # OpenAI 用户上传内容/图片生成
-  - '+.identrust.com'          # OpenAI 证书验证
-  - '+.auth0.com'              # 部分登录鉴权接口
-  - '+.statsig.com'            # App 端常用的实验/分析接口 (App 登录关键)
-  - '+.intercom.io'            # 客服与反馈系统
-  - '+.featuregates.org'       # 功能开关控制
-  - 'ios.chat.openai.com'      # iOS App 专属接口
-  - 'android.chat.openai.com'  # Android App 专属接口
+  # >>> OpenAI / ChatGPT <<<
+  - DOMAIN-SUFFIX,openai.com                    # OpenAI 官网及 API 接口
+  - DOMAIN-SUFFIX,chatgpt.com                   # ChatGPT 品牌新域名
+  - DOMAIN-SUFFIX,oaistatic.com                 # 静态资源（图片、JS、CSS）
+  - DOMAIN-SUFFIX,oaiusercontent.com            # 用户上传文件、DALL-E 生成图
+  - DOMAIN-SUFFIX,identrust.com                 # 网站证书验证（登录必备）
+  - DOMAIN-SUFFIX,auth0.com                     # 授权鉴权服务
+  - DOMAIN-SUFFIX,statsig.com                   # App 端实验分析（移动端登录关键）
+  - DOMAIN-SUFFIX,intercom.io                   # 网页版在线客服支持
+  - DOMAIN-SUFFIX,featuregates.org              # 灰度功能开关控制
+  - DOMAIN,ios.chat.openai.com                  # iOS 客户端专属 API
+  - DOMAIN,android.chat.openai.com              # Android 客户端专属 API
 
-  # === Google Gemini (Bard) ===
-  - '+.gemini.google.com'      # Gemini 网页端
-  - '+.bard.google.com'        # 原 Bard 域名
-  - '+.deepmind.com'           # DeepMind 官网
-  - '+.deepmind.google'        # DeepMind 相关服务
-  - '+.generativelanguage.googleapis.com' # Gemini API 核心域名
-  - '+.proactivebackend-pa.googleapis.com' # App 端后端通信
-  - '+.aisandbox-pa.googleapis.com' # AI 沙盒环境
-  - 'alkalimessages-pa.googleapis.com' # Gemini App 消息接口
+  # >>> Google Gemini (Bard) <<<
+  - DOMAIN-SUFFIX,gemini.google.com             # Gemini 网页端主入口
+  - DOMAIN-SUFFIX,bard.google.com               # 原 Bard 兼容域名
+  - DOMAIN-SUFFIX,deepmind.com                  # DeepMind 官网
+  - DOMAIN-SUFFIX,deepmind.google               # DeepMind 相关 AI 服务
+  - DOMAIN-SUFFIX,generativelanguage.googleapis.com # Gemini API 核心数据传输
+  - DOMAIN-SUFFIX,proactivebackend-pa.googleapis.com # 移动端后端通讯
+  - DOMAIN-SUFFIX,aisandbox-pa.googleapis.com    # AI 测试沙盒环境
+  - DOMAIN,alkalimessages-pa.googleapis.com     # App 端消息处理接口
 
-  # === Anthropic Claude ===
-  - '+.anthropic.com'          # Claude 官网及 API
-  - '+.claude.ai'              # Claude 网页版核心域名
+  # >>> Anthropic Claude <<<
+  - DOMAIN-SUFFIX,anthropic.com                 # Anthropic 公司官网及 API
+  - DOMAIN-SUFFIX,claude.ai                     # Claude 网页版核心对话域名
 
-  # === Microsoft Copilot / Bing AI ===
-  - 'sydney.bing.com'          # Bing AI / Copilot 核心聊天接口
-  - 'edgeservices.bing.com'    # Edge 浏览器内置 AI 接口
-  - 'www.bingapis.com'         # Bing API
-  - '+.copilot.microsoft.com'   # Copilot 独立域名
+  # >>> Microsoft Copilot / Bing AI <<<
+  - DOMAIN,sydney.bing.com                      # Copilot 聊天核心服务器
+  - DOMAIN,edgeservices.bing.com                # Edge 侧边栏 AI 接口
+  - DOMAIN,www.bingapis.com                     # Bing API 服务
+  - DOMAIN-SUFFIX,copilot.microsoft.com         # Copilot 独立入口域名
 
-  # === Perplexity AI ===
-  - '+.perplexity.ai'          # Perplexity 官网及 API
+  # >>> Perplexity AI <<<
+  - DOMAIN-SUFFIX,perplexity.ai                 # AI 搜索助手 Perplexity 官网
 
-  # === Grok (xAI) ===
-  - '+.grok.com'               # Grok 官网
-  - '+.x.ai'                   # xAI 官网
+  # >>> Grok (xAI) <<<
+  - DOMAIN-SUFFIX,grok.com                      # 马斯克旗下 Grok 官网
+  - DOMAIN-SUFFIX,x.ai                          # xAI 科技公司官网
 
-  # === Midjourney ===
-  - '+.midjourney.com'         # Midjourney 官网
-  - '+.discord.com'            # Midjourney 依赖的 Discord (可选)
-  - '+.discord.gg'             # Discord 邀请链接
+  # >>> Midjourney <<<
+  - DOMAIN-SUFFIX,midjourney.com                # Midjourney 画图官网
+  - DOMAIN-SUFFIX,discord.com                   # MJ 依赖的 Discord 社区
+  - DOMAIN-SUFFIX,discord.gg                    # Discord 短链接/邀请链接
 
-  # === 其他常用 AI 工具 ===
-  - '+.poe.com'                # Quora 旗下的 AI 聚合平台
-  - '+.character.ai'           # Character AI
-  - '+.mistral.ai'             # Mistral AI (欧洲最强开源模型)
-  - '+.cohere.com'             # Cohere AI
+  # >>> 其他常用 AI 工具 <<<
+  - DOMAIN-SUFFIX,poe.com                       # Quora 旗下的 POE 聚合平台
+  - DOMAIN-SUFFIX,character.ai                  # 角色扮演类 AI 对话
+  - DOMAIN-SUFFIX,mistral.ai                    # Mistral AI 官网
+  - DOMAIN-SUFFIX,cohere.com                    # 企业级 AI 服务商 Cohere
