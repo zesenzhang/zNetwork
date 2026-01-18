@@ -16,6 +16,7 @@ payload:
   - DOMAIN-SUFFIX,mysmartadvisor.com
   - DOMAIN-SUFFIX,gov.cn
   - DOMAIN-SUFFIX,csdn.net
+  - DOMAIN-KEYWORD,csdn
   - DOMAIN-SUFFIX,csdnimg.cn
   - DOMAIN-SUFFIX,1panel.cn
 
