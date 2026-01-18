@@ -20,6 +20,23 @@ payload:
   - 'uhdpaper.com'
   - 'img.uhdpaper.com'
   - 'nirsoft.net'
+  #google
+  - 'doubleclick.net'
+  - 'googleapis.cn'
+  - 'google.com.tw'
+  - 'google.com.hk'
+  - 'google.com'
+  - 'gstatic.com'
+  - 'googlevideo.com'
+  - 'googleapis.cn'
+  - 'googleapis.com'
+  - 'googleapis-cn.com'
+  - 'xn--ngstr-lra8j.com'
+  - 'googletagmanager.com'
+  - 'googleusercontent.com'
+  - 'google-analytics.com'
+  - 'googleadservices.com'
+  - 'googlesyndication.com'
 
   # 社交 / 视频 / 论坛
   - 'twitter.com'
