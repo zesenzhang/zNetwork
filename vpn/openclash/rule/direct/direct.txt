@@ -1,8 +1,8 @@
 payload:
   # 放在最前面，确保最高优先级
-  - DOMAIN-KEYWORD,plex
   - DOMAIN-SUFFIX,plex.direct
-  - DOMAIN-SUFFIX,plex.tv
+  - DOMAIN-KEYWORD,plex.direct
+  - DOMAIN-SUFFIX,plex.bz
 
   # 常用 CN / 本地服务
   - DOMAIN-SUFFIX,qpic.cn
