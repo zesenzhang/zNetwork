@@ -1,219 +1,222 @@
 payload:
+  # --- plex ---
+  - DOMAIN-KEYWORD,plex
+  - DOMAIN-SUFFIX,plex.tv
+  - DOMAIN-SUFFIX,plex.online
 
-  # 没整理
-  - 'istoreos.com'
-  - 'sspanel.net'
-  - 'v2ex.com'
-  - 'feeder.co'
-  - 'papaly.com'
-  - 'cdn.cookielaw.org'
-  - 'adtidy.org'
-  - 'adguard-dns.io'
-  - 'rocket.chat'
-  - 'linkwarden.app'
-  - 'bahraniapps.com'
-  - 'linkcollect.io'
-  - 'uhdpaper.com'
-  - 'img.uhdpaper.com'
-  - 'nirsoft.net'
+  # --- 没整理 / 工具 ---
+  - DOMAIN-SUFFIX,istoreos.com
+  - DOMAIN-SUFFIX,sspanel.net
+  - DOMAIN-SUFFIX,v2ex.com
+  - DOMAIN-SUFFIX,feeder.co
+  - DOMAIN-SUFFIX,papaly.com
+  - DOMAIN-SUFFIX,cdn.cookielaw.org
+  - DOMAIN-SUFFIX,adtidy.org
+  - DOMAIN-SUFFIX,adguard-dns.io
+  - DOMAIN-SUFFIX,rocket.chat
+  - DOMAIN-SUFFIX,linkwarden.app
+  - DOMAIN-SUFFIX,bahraniapps.com
+  - DOMAIN-SUFFIX,linkcollect.io
+  - DOMAIN-SUFFIX,uhdpaper.com
+  - DOMAIN-SUFFIX,img.uhdpaper.com
+  - DOMAIN-SUFFIX,nirsoft.net
 
-  # google
-  - 'doubleclick.net'
-  - 'googleapis.cn'
-  - 'google.com.tw'
-  - 'google.com.hk'
-  - 'dl.google.com'
-  - 'tools.google.com'
-  - 'gstatic.com'
-  - 'googlevideo.com'
-  - 'googleapis.com'
-  - 'googleapis-cn.com'
-  - 'xn--ngstr-lra8j.com'
-  - 'googletagmanager.com'
-  - 'googleusercontent.com'
-  - 'google-analytics.com'
-  - 'googleadservices.com'
-  - 'googlesyndication.com'
+  # --- Google ---
+  - DOMAIN-SUFFIX,doubleclick.net
+  - DOMAIN-SUFFIX,googleapis.cn
+  - DOMAIN-SUFFIX,google.com.tw
+  - DOMAIN-SUFFIX,google.com.hk
+  - DOMAIN-SUFFIX,dl.google.com
+  - DOMAIN-SUFFIX,tools.google.com
+  - DOMAIN-SUFFIX,gstatic.com
+  - DOMAIN-SUFFIX,googlevideo.com
+  - DOMAIN-SUFFIX,googleapis.com
+  - DOMAIN-SUFFIX,googleapis-cn.com
+  - DOMAIN-SUFFIX,xn--ngstr-lra8j.com
+  - DOMAIN-SUFFIX,googletagmanager.com
+  - DOMAIN-SUFFIX,googleusercontent.com
+  - DOMAIN-SUFFIX,google-analytics.com
+  - DOMAIN-SUFFIX,googleadservices.com
+  - DOMAIN-SUFFIX,googlesyndication.com
 
-  # 社交 / 视频 / 论坛
-  - 'twitter.com'
-  - 'facebook.com'
-  - 'reddit.com'
-  - 'tumblr.com'
-  - 'daum.net'
-  - 'notepad-plus-plus.org'
-  - 'magisto.com'
-  - 'akamaized.net'
-  - 'firebaseio.com'
-  - 'transcend.io'
-  - 'thisiscolossal.com'
+  # --- 社交 / 视频 / 论坛 ---
+  - DOMAIN-SUFFIX,twitter.com
+  - DOMAIN-SUFFIX,facebook.com
+  - DOMAIN-SUFFIX,reddit.com
+  - DOMAIN-SUFFIX,tumblr.com
+  - DOMAIN-SUFFIX,daum.net
+  - DOMAIN-SUFFIX,notepad-plus-plus.org
+  - DOMAIN-SUFFIX,magisto.com
+  - DOMAIN-SUFFIX,akamaized.net
+  - DOMAIN-SUFFIX,firebaseio.com
+  - DOMAIN-SUFFIX,transcend.io
+  - DOMAIN-SUFFIX,thisiscolossal.com
 
-  # Zesen / 备用
-  - 'zesen.net'
-  - 'bebezhou.com'
+  # --- Zesen / 备用 ---
+  - DOMAIN-SUFFIX,zesen.net
+  - DOMAIN-SUFFIX,bebezhou.com
 
-  # 游戏
-  - 'nintendo.com'
-  - 'nintendo.net'
-  - 'playstation.com'
-  - 'playstation.net'
-  - 'ea.com'
-  - 'ali213.net'
-  - 'otoy.com'
-  - 'quadspinner.com'
+  # --- 游戏 ---
+  - DOMAIN-SUFFIX,nintendo.com
+  - DOMAIN-SUFFIX,nintendo.net
+  - DOMAIN-SUFFIX,playstation.com
+  - DOMAIN-SUFFIX,playstation.net
+  - DOMAIN-SUFFIX,ea.com
+  - DOMAIN-SUFFIX,ali213.net
+  - DOMAIN-SUFFIX,otoy.com
+  - DOMAIN-SUFFIX,quadspinner.com
 
-  # AI / ChatGPT / MidJourney / HuggingFace
-  - 'openai.com'
-  - 'chatgpt.com'
-  - 'oaistatic.com'
-  - 'oaiusercontent.com'
-  - 'midjourney.com'
-  - 'mj.run'
-  - 'huggingface.co'
-  - 'civitai.com'
-  - 'leonardo.ai'
-  - 'discord.com'
-  - 'discordapp.com'
-  - 'pypi.org'
-  - 'pythonhosted.org'
+  # --- AI / ChatGPT / MidJourney / HuggingFace ---
+  - DOMAIN-SUFFIX,openai.com
+  - DOMAIN-SUFFIX,chatgpt.com
+  - DOMAIN-SUFFIX,oaistatic.com
+  - DOMAIN-SUFFIX,oaiusercontent.com
+  - DOMAIN-SUFFIX,midjourney.com
+  - DOMAIN-SUFFIX,mj.run
+  - DOMAIN-SUFFIX,huggingface.co
+  - DOMAIN-SUFFIX,civitai.com
+  - DOMAIN-SUFFIX,leonardo.ai
+  - DOMAIN-SUFFIX,discord.com
+  - DOMAIN-SUFFIX,discordapp.com
+  - DOMAIN-SUFFIX,pypi.org
+  - DOMAIN-SUFFIX,pythonhosted.org
 
-  # Microsoft / Copilot
-  - 'microsoft.com'
-  - 'bing.com'
-  - 'bingapis.com'
-  - 'office.com'
-  - 'live.com'
-  - 'windows.com'
-  - 'login.microsoftonline.com'
-  - 'substrate.office.com'
-  - 'logincdn.msauth.net'
-  - 'acctcdn.msauth.net'
+  # --- Microsoft / Copilot ---
+  - DOMAIN-SUFFIX,microsoft.com
+  - DOMAIN-SUFFIX,bing.com
+  - DOMAIN-SUFFIX,bingapis.com
+  - DOMAIN-SUFFIX,office.com
+  - DOMAIN-SUFFIX,live.com
+  - DOMAIN-SUFFIX,windows.com
+  - DOMAIN-SUFFIX,login.microsoftonline.com
+  - DOMAIN-SUFFIX,substrate.office.com
+  - DOMAIN-SUFFIX,logincdn.msauth.net
+  - DOMAIN-SUFFIX,acctcdn.msauth.net
 
-  # Steam / Epic / 游戏下载
-  - 'steampowered.com'
-  - 'steamcontent.com'
-  - 'epicgames.com'
-  - 'myqcloud.com'
-  - 'clngaa.com'
-  - 'ksyna.com'
+  # --- Steam / Epic / 游戏下载 ---
+  - DOMAIN-SUFFIX,steampowered.com
+  - DOMAIN-SUFFIX,steamcontent.com
+  - DOMAIN-SUFFIX,epicgames.com
+  - DOMAIN-SUFFIX,myqcloud.com
+  - DOMAIN-SUFFIX,clngaa.com
+  - DOMAIN-SUFFIX,ksyna.com
 
-  # Docker / Linux
-  - 'docker.com'
-  - 'docker.io'
-  - 'debian.org'
-  - 'dockerstatic.com'
-  - 'centos.org'
-  - 'openwrt.org'
+  # --- Docker / Linux ---
+  - DOMAIN-SUFFIX,docker.com
+  - DOMAIN-SUFFIX,docker.io
+  - DOMAIN-SUFFIX,debian.org
+  - DOMAIN-SUFFIX,dockerstatic.com
+  - DOMAIN-SUFFIX,centos.org
+  - DOMAIN-SUFFIX,openwrt.org
 
-  # Design / Figma / Creative
-  - 'figma.com'
-  - 'figma.cool'
-  - 'dribbble.com'
-  - 'artstation.com'
-  - 'behance.net'
-  - 'behance.app.link'
-  - 'cgsociety.org'
-  - 'mixamo.com'
-  - 'dopely.top'
-  - 'iconscout.com'
+  # --- Design / Figma / Creative ---
+  - DOMAIN-SUFFIX,figma.com
+  - DOMAIN-SUFFIX,figma.cool
+  - DOMAIN-SUFFIX,dribbble.com
+  - DOMAIN-SUFFIX,artstation.com
+  - DOMAIN-SUFFIX,behance.net
+  - DOMAIN-SUFFIX,behance.app.link
+  - DOMAIN-SUFFIX,cgsociety.org
+  - DOMAIN-SUFFIX,mixamo.com
+  - DOMAIN-SUFFIX,dopely.top
+  - DOMAIN-SUFFIX,iconscout.com
 
-  # Adobe / Maxon / Blender
-  - 'adobe.com'
-  - 'adobelogin.com'
-  - 'adobe.io'
-  - 'maxon.net'
-  - 'imgix.net'
-  - 'redshift3d.com'
-  - 'blender.org'
-  - 'clarkson.edu'
-  - 'freedif.org'
+  # --- Adobe / Maxon / Blender ---
+  - DOMAIN-SUFFIX,adobe.com
+  - DOMAIN-SUFFIX,adobelogin.com
+  - DOMAIN-SUFFIX,adobe.io
+  - DOMAIN-SUFFIX,maxon.net
+  - DOMAIN-SUFFIX,imgix.net
+  - DOMAIN-SUFFIX,redshift3d.com
+  - DOMAIN-SUFFIX,blender.org
+  - DOMAIN-SUFFIX,clarkson.edu
+  - DOMAIN-SUFFIX,freedif.org
 
-  # TikTok
-  - 'tiktok.com'
-  - 'tiktokcdn-us.com'
-  - 'tiktokcdn.com'
-  - 'tiktokv.com'
-  - 'tiktokv.us'
-  - 'tiktokw.us'
-  - 'atomile.com'
-  - 'wsdvs.com'
-  - 'ovscdns.net'
-  - 'rocket-cdn.com'
-  - 'ibytedtos.com'
+  # --- TikTok ---
+  - DOMAIN-SUFFIX,tiktok.com
+  - DOMAIN-SUFFIX,tiktokcdn-us.com
+  - DOMAIN-SUFFIX,tiktokcdn.com
+  - DOMAIN-SUFFIX,tiktokv.com
+  - DOMAIN-SUFFIX,tiktokv.us
+  - DOMAIN-SUFFIX,tiktokw.us
+  - DOMAIN-SUFFIX,atomile.com
+  - DOMAIN-SUFFIX,wsdvs.com
+  - DOMAIN-SUFFIX,ovscdns.net
+  - DOMAIN-SUFFIX,rocket-cdn.com
+  - DOMAIN-SUFFIX,ibytedtos.com
 
-  # Youtube / Vimeo / Streaming
-  - 'youtube.com'
-  - 'ytimg.com'
-  - 'televzr.com'
-  - 'vimeo.com'
-  - 'vimeocdn.com'
-  - 'image.tmdb.org'
-  - 'api.themoviedb.org'
+  # --- Youtube / Vimeo / Streaming ---
+  - DOMAIN-SUFFIX,youtube.com
+  - DOMAIN-SUFFIX,ytimg.com
+  - DOMAIN-SUFFIX,televzr.com
+  - DOMAIN-SUFFIX,vimeo.com
+  - DOMAIN-SUFFIX,vimeocdn.com
+  - DOMAIN-SUFFIX,image.tmdb.org
+  - DOMAIN-SUFFIX,api.themoviedb.org
 
-  # Spotify
-  - 'googleusercontent.com'
-  - 'spotifycdn.com'
-  - 'spotify.demdex.net'
-  - 'scdn.co'
-  - 'i.scdn.co'
-  - 'privacyportal-de.onetrust.com'
-  - 'seed-mix-image.spotifycdn.com'
+  # --- Spotify ---
+  - DOMAIN-SUFFIX,spotifycdn.com
+  - DOMAIN-SUFFIX,spotify.demdex.net
+  - DOMAIN-SUFFIX,scdn.co
+  - DOMAIN-SUFFIX,i.scdn.co
+  - DOMAIN-SUFFIX,privacyportal-de.onetrust.com
+  - DOMAIN-SUFFIX,seed-mix-image.spotifycdn.com
 
-  # Cloud / CDN / Misc
-  - 'cloudflare.com'
-  - 'cloudfront.net'
-  - 'cloudflarestorage.com'
-  - 'cloudflareinsights.com'
-  - 'stripe.com'
-  - 'stripe.network'
-  - 'letsencrypt.org'
-  - 'akamai.net'
-  - 'akamized.net'
-  - 'fastly.net'
-  - 'cdninstagram.com'
-  - 'pinterest.com'
-  - 'pinimg.com'
-  - 'pinterest.net'
-  - 'fbcdn.net'
-  - 'd2-apps.net'
-  - 'flashtalking.com'
-  - 'cedexis.com'
-  - 'instabug.com'
+  # --- Cloud / CDN / Misc ---
+  - DOMAIN-SUFFIX,cloudflare.com
+  - DOMAIN-SUFFIX,cloudfront.net
+  - DOMAIN-SUFFIX,cloudflarestorage.com
+  - DOMAIN-SUFFIX,cloudflareinsights.com
+  - DOMAIN-SUFFIX,stripe.com
+  - DOMAIN-SUFFIX,stripe.network
+  - DOMAIN-SUFFIX,letsencrypt.org
+  - DOMAIN-SUFFIX,akamai.net
+  - DOMAIN-SUFFIX,akamized.net
+  - DOMAIN-SUFFIX,fastly.net
+  - DOMAIN-SUFFIX,cdninstagram.com
+  - DOMAIN-SUFFIX,pinterest.com
+  - DOMAIN-SUFFIX,pinimg.com
+  - DOMAIN-SUFFIX,pinterest.net
+  - DOMAIN-SUFFIX,fbcdn.net
+  - DOMAIN-SUFFIX,d2-apps.net
+  - DOMAIN-SUFFIX,flashtalking.com
+  - DOMAIN-SUFFIX,cedexis.com
+  - DOMAIN-SUFFIX,instabug.com
 
-  # Wordpress / Github / Package
-  - 'wordpress.org'
-  - 'github.com'
-  - 'ghcr.io'
-  - 'github.io'
-  - 'githubusercontent.com'
-  - 'raw.githubusercontent.com'
-  - 'github.global.ssl.fastly.net'
-  - 'assets-cdn.github.com'
-  - 'git-scm.com'
-  - 'curl.se'
+  # --- Wordpress / Github / Package ---
+  - DOMAIN-SUFFIX,wordpress.org
+  - DOMAIN-SUFFIX,github.com
+  - DOMAIN-SUFFIX,ghcr.io
+  - DOMAIN-SUFFIX,github.io
+  - DOMAIN-SUFFIX,githubusercontent.com
+  - DOMAIN-SUFFIX,raw.githubusercontent.com
+  - DOMAIN-SUFFIX,github.global.ssl.fastly.net
+  - DOMAIN-SUFFIX,assets-cdn.github.com
+  - DOMAIN-SUFFIX,git-scm.com
+  - DOMAIN-SUFFIX,curl.se
 
-  # Sex / Adult
-  - 'pornhub.com'
-  - 'cdn.live'
-  - 'sex.com'
-  - 'javmost.com'
-  - 'gfycat.com'
+  # --- Sex / Adult ---
+  - DOMAIN-SUFFIX,pornhub.com
+  - DOMAIN-SUFFIX,cdn.live
+  - DOMAIN-SUFFIX,sex.com
+  - DOMAIN-SUFFIX,javmost.com
+  - DOMAIN-SUFFIX,gfycat.com
 
-  # Misc
-  - 'hotoss.com'
-  - 'e-hentai.org'
-  - 'hath.network'
-  - 'turbosquid.com'
-  - 'bootstrapcdn.com'
-  - 'btnull.org'
-  - 'btnull.net'
-  - 'btnull.fun'
-  - 'apkmirror.com'
-  - 'downloadr2.apkmirror.com'
-  - 'disqus.com'
-  - 'disquscdn.com'
-  - 'chaos.com'
-  - 'cookielaw.org'
-  - 'chaosgroup.com'
-  - 'nitropay.com'
-  - 'addtoany.com'
+  # --- Misc ---
+  - DOMAIN-SUFFIX,hotoss.com
+  - DOMAIN-SUFFIX,e-hentai.org
+  - DOMAIN-SUFFIX,hath.network
+  - DOMAIN-SUFFIX,turbosquid.com
+  - DOMAIN-SUFFIX,bootstrapcdn.com
+  - DOMAIN-SUFFIX,btnull.org
+  - DOMAIN-SUFFIX,btnull.net
+  - DOMAIN-SUFFIX,btnull.fun
+  - DOMAIN-SUFFIX,apkmirror.com
+  - DOMAIN-SUFFIX,downloadr2.apkmirror.com
+  - DOMAIN-SUFFIX,disqus.com
+  - DOMAIN-SUFFIX,disquscdn.com
+  - DOMAIN-SUFFIX,chaos.com
+  - DOMAIN-SUFFIX,cookielaw.org
+  - DOMAIN-SUFFIX,chaosgroup.com
+  - DOMAIN-SUFFIX,nitropay.com
+  - DOMAIN-SUFFIX,addtoany.com
