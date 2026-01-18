@@ -1,9 +1,9 @@
+payload:
 # =========================
 # Global / Proxy Rules
 # 国外 / 需要代理的服务
 # =========================
 
-payload:
   # 没整理
   - 'istoreos.com'
   - 'sspanel.net'
