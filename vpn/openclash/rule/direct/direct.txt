@@ -1,6 +1,10 @@
 payload:
-  # 常用 CN / 本地服务
+  # 放在最前面，确保最高优先级
+  - DOMAIN-KEYWORD,plex
+  - DOMAIN-SUFFIX,plex.direct
+  - DOMAIN-SUFFIX,plex.tv
 
+  # 常用 CN / 本地服务
   - DOMAIN-SUFFIX,qpic.cn
   - DOMAIN-SUFFIX,kuwo.cn
   - DOMAIN-SUFFIX,dyndns.com
@@ -24,11 +28,6 @@ payload:
   # Sony / PlayStation
   - DOMAIN-SUFFIX,playstation.com
   - DOMAIN-SUFFIX,playstation.net
-
-  # Plex
-  - DOMAIN-KEYWORD,plex
-  - DOMAIN-SUFFIX,plex.tv
-  - DOMAIN-SUFFIX,plex.direct
 
   # Game
   - DOMAIN-SUFFIX,ali213.net
