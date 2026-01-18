@@ -20,7 +20,8 @@ payload:
   - 'uhdpaper.com'
   - 'img.uhdpaper.com'
   - 'nirsoft.net'
-  #google
+
+  # google
   - 'doubleclick.net'
   - 'googleapis.cn'
   - 'google.com.tw'
@@ -28,7 +29,6 @@ payload:
   - 'google.com'
   - 'gstatic.com'
   - 'googlevideo.com'
-  - 'googleapis.cn'
   - 'googleapis.com'
   - 'googleapis-cn.com'
   - 'xn--ngstr-lra8j.com'
@@ -66,12 +66,14 @@ payload:
   - 'quadspinner.com'
 
   # AI / ChatGPT / MidJourney / HuggingFace
-  - 'openai'
-  - 'chatgpt'
-  - 'midjourney'
+  - 'openai.com'
+  - 'chatgpt.com'
+  - 'oaistatic.com'
+  - 'oaiusercontent.com'
+  - 'midjourney.com'
   - 'mj.run'
-  - 'huggingface'
-  - 'civitai'
+  - 'huggingface.co'
+  - 'civitai.com'
   - 'leonardo.ai'
   - 'discord.com'
   - 'discordapp.com'
@@ -93,9 +95,10 @@ payload:
   # Steam / Epic / 游戏下载
   - 'steampowered.com'
   - 'steamcontent.com'
-  - 'epicgames-download1-1251447533.file.myqcloud.com'
-  - 'dl.steam.clngaa.com'
-  - 'dl.steam.ksyna.com'
+  - 'epicgames.com'
+  - 'myqcloud.com'
+  - 'clngaa.com'
+  - 'ksyna.com'
 
   # Docker / Linux
   - 'docker.com'
@@ -116,8 +119,6 @@ payload:
   - 'mixamo.com'
   - 'dopely.top'
   - 'iconscout.com'
-  - 'uhdpaper.com'
-  - 'img.uhdpaper.com'
 
   # Adobe / Maxon / Blender
   - 'adobe.com'
@@ -153,16 +154,13 @@ payload:
   - 'api.themoviedb.org'
 
   # Spotify
-  - 'spotify.com'
+  - 'googleusercontent.com'
   - 'spotifycdn.com'
   - 'spotify.demdex.net'
   - 'scdn.co'
   - 'i.scdn.co'
   - 'privacyportal-de.onetrust.com'
   - 'seed-mix-image.spotifycdn.com'
-  - 'api-partner.spotify.com'
-  - 'spclient.wg.spotify.com'
-  - 'guc3-spclient.spotify.com'
 
   # Cloud / CDN / Misc
   - 'cloudflare.com'
@@ -196,8 +194,6 @@ payload:
   - 'assets-cdn.github.com'
   - 'git-scm.com'
   - 'curl.se'
-  - 'pypi.org'
-  - 'pythonhosted.org'
 
   # Sex / Adult
   - 'pornhub.com'
