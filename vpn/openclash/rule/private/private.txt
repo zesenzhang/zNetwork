@@ -1,1 +1,63 @@
+payload:
+  # >>> 私有网络 IP 地址段 (IP-CIDR) <<<
+  - IP-CIDR,0.0.0.0/8,no-resolve
+  - IP-CIDR,10.0.0.0/8,no-resolve
+  - IP-CIDR,100.64.0.0/10,no-resolve
+  - IP-CIDR,127.0.0.0/8,no-resolve
+  - IP-CIDR,169.254.0.0/16,no-resolve
+  - IP-CIDR,172.16.0.0/12,no-resolve
+  - IP-CIDR,192.0.0.0/24,no-resolve
+  - IP-CIDR,192.0.2.0/24,no-resolve
+  - IP-CIDR,192.88.99.0/24,no-resolve
+  - IP-CIDR,192.168.0.0/16,no-resolve
+  - IP-CIDR,198.18.0.0/15,no-resolve
+  - IP-CIDR,198.51.100.0/24,no-resolve
+  - IP-CIDR,203.0.113.0/24,no-resolve
+  - IP-CIDR,224.0.0.0/3,no-resolve
+  # IPv6 私有段
+  - IP-CIDR6,::/127,no-resolve
+  - IP-CIDR6,fc00::/7,no-resolve
+  - IP-CIDR6,fe80::/10,no-resolve
+  - IP-CIDR6,ff00::/8,no-resolve
 
+  # >>> 常见路由器管理域名 <<<
+  - DOMAIN,instant.arubanetworks.com
+  - DOMAIN,setmeup.arubanetworks.com
+  - DOMAIN,asusrouter.com
+  - DOMAIN,router.asus.com
+  - DOMAIN,www.asusrouter.com
+  - DOMAIN,oasisauth.h3c.com
+  - DOMAIN,routerlogin.com
+  - DOMAIN,www.routerlogin.com
+  - DOMAIN,tplogin.cn
+  - DOMAIN,miwifi.com
+  - DOMAIN,www.miwifi.com
+
+  # >>> 局域网通用后缀 (DOMAIN-SUFFIX) <<<
+  - DOMAIN-SUFFIX,internal
+  - DOMAIN-SUFFIX,localdomain
+  - DOMAIN-SUFFIX,example
+  - DOMAIN-SUFFIX,invalid
+  - DOMAIN-SUFFIX,localhost
+  - DOMAIN-SUFFIX,test
+  - DOMAIN-SUFFIX,local
+  - DOMAIN-SUFFIX,lan
+  - DOMAIN-SUFFIX,zte.home
+  - DOMAIN-SUFFIX,my.router
+  - DOMAIN-SUFFIX,ts.net
+  - DOMAIN-SUFFIX,home.arpa
+  - DOMAIN-SUFFIX,hiwifi.com
+  - DOMAIN-SUFFIX,tplinkwifi.net
+  - DOMAIN-SUFFIX,tendawifi.com
+  - DOMAIN-SUFFIX,leike.cc
+  - DOMAIN-SUFFIX,plex.direct
+  - DOMAIN-SUFFIX,router.ctc
+  - DOMAIN-SUFFIX,phicomm.me
+  - DOMAIN-SUFFIX,peiluyou.com
+  - DOMAIN-SUFFIX,localhost.ptlogin2.qq.com
+  - DOMAIN-SUFFIX,localhost.sec.qq.com
+  - DOMAIN-SUFFIX,test.steampowered.com
+
+  # >>> 反向解析域名 (PTR Records / in-addr.arpa) <<<
+  - DOMAIN-SUFFIX,in-addr.arpa
+  - DOMAIN-SUFFIX,ip6.arpa
