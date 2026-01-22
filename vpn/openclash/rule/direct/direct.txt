@@ -103,3 +103,6 @@ payload:
   - DOMAIN-SUFFIX,eccdnx.com
   - DOMAIN-SUFFIX,pinyuncloud.com
   - DOMAIN-SUFFIX,mileweb.cs.steampowered.com
+
+  # 红警重聚未来
+  - DOMAIN-SUFFIX,gamesurge.net
