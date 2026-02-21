@@ -32,6 +32,7 @@ payload:
 
   # Game
   - DOMAIN-SUFFIX,ali213.net
+  - DOMAIN-SUFFIX,gamesurge.net
 
   # Design / Ads
   - DOMAIN-SUFFIX,zcool.com.cn
