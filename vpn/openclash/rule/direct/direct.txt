@@ -96,8 +96,6 @@ payload:
   - DOMAIN-SUFFIX,iwin10.com
 
   # Steam China CDN
-  - DOMAIN-SUFFIX,steampowered.com
-  - DOMAIN-SUFFIX,steamcontent.com
   - DOMAIN-SUFFIX,steamchina.com
   - DOMAIN-SUFFIX,myqcloud.com
   - DOMAIN-SUFFIX,bscstorage.net
