@@ -35,6 +35,7 @@ payload:
   - DOMAIN-SUFFIX,poseidon.dl.playstation.net
   - DOMAIN-SUFFIX,hermes.dl.playstation.net
   - DOMAIN-SUFFIX,atlas.dl.playstation.net
+  # 更新服务
   - DOMAIN-SUFFIX,update.playstation.net
   # 国内官方服务与本地化节点域名
   - DOMAIN-SUFFIX,playstation.com.cn
