@@ -27,8 +27,18 @@ payload:
   - DOMAIN-SUFFIX,feishu.cn
 
   # Sony / PlayStation
-  - DOMAIN-SUFFIX,playstation.com
-  - DOMAIN-SUFFIX,playstation.net
+  # 游戏、DLC、系统更新下载 CDN（国内部署节点，直连可满速）
+  - DOMAIN-SUFFIX,dl.playstation.net
+  - DOMAIN-SUFFIX,gs2.ww.prod.dl.playstation.net
+  - DOMAIN-SUFFIX,ares.dl.playstation.net
+  - DOMAIN-SUFFIX,zeus.dl.playstation.net
+  - DOMAIN-SUFFIX,poseidon.dl.playstation.net
+  - DOMAIN-SUFFIX,hermes.dl.playstation.net
+  - DOMAIN-SUFFIX,atlas.dl.playstation.net
+  - DOMAIN-SUFFIX,update.playstation.net
+  # 国内官方服务与本地化节点域名
+  - DOMAIN-SUFFIX,playstation.com.cn
+  - DOMAIN-SUFFIX,sony.com.cn
 
   # Game
   - DOMAIN-SUFFIX,ali213.net
