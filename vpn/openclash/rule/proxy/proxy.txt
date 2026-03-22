@@ -59,30 +59,32 @@ payload:
   - DOMAIN-SUFFIX,quadspinner.com
 
   # Sony / PlayStation / PS游戏机 / 需要代理
-  # 核心账号认证、登录与权限校验
+  # 核心账号系统（必须代理）
   - DOMAIN-SUFFIX,sonyentertainmentnetwork.com
-  - DOMAIN-SUFFIX,auth.api.sonyentertainmentnetwork.com
   - DOMAIN-SUFFIX,account.sonyentertainmentnetwork.com
+  - DOMAIN-SUFFIX,auth.api.sonyentertainmentnetwork.com
   - DOMAIN-SUFFIX,id.sonyentertainmentnetwork.com
-  # PSN 商店、内容购买与页面服务
-  - DOMAIN-SUFFIX,store.playstation.com
+  # PSN API / 商店 / 核心服务
+  - DOMAIN-SUFFIX,playstation.com
   - DOMAIN-SUFFIX,api.playstation.com
+  - DOMAIN-SUFFIX,store.playstation.com
   - DOMAIN-SUFFIX,web.np.playstation.com
-  # PlayStation Plus 会员相关服务
+  - DOMAIN-SUFFIX,service.playstation.com
+  # PS Plus / 会员
   - DOMAIN-SUFFIX,plus.playstation.com
-  # 奖杯同步、成就与游戏数据服务
-  - DOMAIN-SUFFIX,trophy.api.sonyentertainmentnetwork.com
-  - DOMAIN-SUFFIX,nptitle.acplaystation.net
-  # 联机匹配、房间会话与派对语音服务
+  # 社交 / 奖杯 / 好友 / 消息
   - DOMAIN-SUFFIX,np.community.playstation.net
-  - DOMAIN-SUFFIX,matchmaking.playstation.net
-  - DOMAIN-SUFFIX,voice.chat.playstation.net
-  - DOMAIN-SUFFIX,party.playstation.net
-  # 好友、消息与社交互动服务
   - DOMAIN-SUFFIX,community.api.sonyentertainmentnetwork.com
   - DOMAIN-SUFFIX,friends.api.sonyentertainmentnetwork.com
   - DOMAIN-SUFFIX,messages.api.sonyentertainmentnetwork.com
-  # 系统功能、远程管理与官方门户
+  - DOMAIN-SUFFIX,trophy.api.sonyentertainmentnetwork.com
+  # 联机 / 匹配 / 语音
+  - DOMAIN-SUFFIX,matchmaking.playstation.net
+  - DOMAIN-SUFFIX,voice.chat.playstation.net
+  - DOMAIN-SUFFIX,party.playstation.net
+  # 游戏数据 / 标题服务
+  - DOMAIN-SUFFIX,nptitle.acplaystation.net
+  # 远程 / 管理
   - DOMAIN-SUFFIX,remoteplay.dl.playstation.net
   - DOMAIN-SUFFIX,my.playstation.com
   - DOMAIN-SUFFIX,manuals.playstation.net
