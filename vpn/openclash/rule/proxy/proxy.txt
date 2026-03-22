@@ -86,6 +86,8 @@ payload:
   - DOMAIN-SUFFIX,remoteplay.dl.playstation.net
   - DOMAIN-SUFFIX,my.playstation.com
   - DOMAIN-SUFFIX,manuals.playstation.net
+  # 系统更新/补丁下载
+  - DOMAIN-SUFFIX,update.playstation.net
 
   # --- Docker / Linux ---
   - DOMAIN-SUFFIX,docker.com
