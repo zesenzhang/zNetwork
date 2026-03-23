@@ -31,6 +31,8 @@ payload:
   - DOMAIN-SUFFIX,lensfrontend-pa.googleapis.com
   - DOMAIN-SUFFIX,optimizationguide-pa.googleapis.com
   - DOMAIN-SUFFIX,storage.googleapis.com
+  - DOMAIN-SUFFIX,firebaseinstallations.googleapis.com
+  - DOMAIN-SUFFIX,clients4.google.com
 
   # >>> Anthropic Claude <<<
   - DOMAIN-SUFFIX,anthropic.com                 # Anthropic 公司官网及 API
