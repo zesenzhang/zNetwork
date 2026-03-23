@@ -34,6 +34,7 @@ payload:
   - DOMAIN-SUFFIX,ggpht.com
   - DOMAIN-SUFFIX,gstatic.com
   - DOMAIN-SUFFIX,googleusercontent.com
+  - DOMAIN-SUFFIX,accounts.google.com
 
 
   # >>> Anthropic Claude <<<
