@@ -24,6 +24,7 @@ payload:
   - DOMAIN,alkalimessages-pa.googleapis.com     # App 端消息处理接口
   - DOMAIN-SUFFIX,labs.google.ai                # Google Labs 历史域名
   - DOMAIN-SUFFIX,labs.google                   # Google Labs 官方入口
+  - DOMAIN-SUFFIX,labs.google/fx/tools
   - DOMAIN-SUFFIX,stitch.withgoogle.com                # Stitch 应用
   - DOMAIN-SUFFIX,robinfrontend-pa.googleapis.com      # 前端交互 API
   - DOMAIN-SUFFIX,geller-pa.googleapis.com             # 实验性功能后端
@@ -34,6 +35,7 @@ payload:
   - DOMAIN-SUFFIX,firebaseinstallations.googleapis.com
   - DOMAIN-SUFFIX,clients4.google.com
   - DOMAIN-SUFFIX,clientservices.googleapis.com
+  - DOMAIN-SUFFIX,gstatic.com
 
   # >>> Anthropic Claude <<<
   - DOMAIN-SUFFIX,anthropic.com                 # Anthropic 公司官网及 API
