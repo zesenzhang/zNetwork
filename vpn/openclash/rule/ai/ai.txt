@@ -26,7 +26,6 @@ payload:
   - DOMAIN-SUFFIX,labs.google                   # Google Labs 官方入口
   - DOMAIN-SUFFIX,labs.google/fx/tools
   - DOMAIN-SUFFIX,flow.google
-  - DOMAIN-SUFFIX,stitch.withgoogle.com                # Stitch 应用
   - DOMAIN-SUFFIX,robinfrontend-pa.googleapis.com      # 前端交互 API
   - DOMAIN-SUFFIX,geller-pa.googleapis.com             # 实验性功能后端
   - DOMAIN-SUFFIX,ai.google.dev
@@ -34,7 +33,7 @@ payload:
   - DOMAIN-SUFFIX,ggpht.com
   - DOMAIN-SUFFIX,gstatic.com
   - DOMAIN-SUFFIX,googleusercontent.com
-  - DOMAIN-SUFFIX,accounts.google.com
+
 
 
   # >>> Anthropic Claude <<<
