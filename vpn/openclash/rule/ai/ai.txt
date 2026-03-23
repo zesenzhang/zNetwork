@@ -25,17 +25,13 @@ payload:
   - DOMAIN-SUFFIX,labs.google.ai                # Google Labs 历史域名
   - DOMAIN-SUFFIX,labs.google                   # Google Labs 官方入口
   - DOMAIN-SUFFIX,labs.google/fx/tools
+  - DOMAIN-SUFFIX,flow.google
   - DOMAIN-SUFFIX,stitch.withgoogle.com                # Stitch 应用
   - DOMAIN-SUFFIX,robinfrontend-pa.googleapis.com      # 前端交互 API
   - DOMAIN-SUFFIX,geller-pa.googleapis.com             # 实验性功能后端
-  - DOMAIN-SUFFIX,oauthaccountmanager.googleapis.com
-  - DOMAIN-SUFFIX,lensfrontend-pa.googleapis.com
-  - DOMAIN-SUFFIX,optimizationguide-pa.googleapis.com
-  - DOMAIN-SUFFIX,storage.googleapis.com
-  - DOMAIN-SUFFIX,firebaseinstallations.googleapis.com
-  - DOMAIN-SUFFIX,clients4.google.com
-  - DOMAIN-SUFFIX,clientservices.googleapis.com
-  - DOMAIN-SUFFIX,gstatic.com
+  - DOMAIN-SUFFIX,ai.google.dev
+  - DOMAIN-SUFFIX,google.dev
+
 
   # >>> Anthropic Claude <<<
   - DOMAIN-SUFFIX,anthropic.com                 # Anthropic 公司官网及 API
