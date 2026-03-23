@@ -22,6 +22,11 @@ payload:
   - DOMAIN-SUFFIX,proactivebackend-pa.googleapis.com # 移动端后端通讯
   - DOMAIN-SUFFIX,aisandbox-pa.googleapis.com    # AI 测试沙盒环境
   - DOMAIN,alkalimessages-pa.googleapis.com     # App 端消息处理接口
+  - DOMAIN-SUFFIX,labs.google.ai                # Google Labs 历史域名
+  - DOMAIN-SUFFIX,labs.google                   # Google Labs 官方入口
+  - DOMAIN-SUFFIX,stitch.withgoogle.com                # Stitch 应用
+  - DOMAIN-SUFFIX,robinfrontend-pa.googleapis.com      # 前端交互 API
+  - DOMAIN-SUFFIX,geller-pa.googleapis.com             # 实验性功能后端
 
   # >>> Anthropic Claude <<<
   - DOMAIN-SUFFIX,anthropic.com                 # Anthropic 公司官网及 API
