@@ -36,8 +36,6 @@ payload:
   - DOMAIN-SUFFIX,support.google.com
   - DOMAIN-SUFFIX,googletagmanager.com
 
-
-
   # >>> Anthropic Claude <<<
   - DOMAIN-SUFFIX,anthropic.com                 # Anthropic 公司官网及 API
   - DOMAIN-SUFFIX,claude.ai                     # Claude 网页版核心对话域名
