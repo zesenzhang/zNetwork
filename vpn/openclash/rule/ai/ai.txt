@@ -35,6 +35,7 @@ payload:
   - DOMAIN-SUFFIX,googleusercontent.com
   - DOMAIN-SUFFIX,support.google.com
   - DOMAIN-SUFFIX,googletagmanager.com
+  - DOMAIN-SUFFIX,one.google.com
 
   # >>> Anthropic Claude <<<
   - DOMAIN-SUFFIX,anthropic.com                 # Anthropic 公司官网及 API
