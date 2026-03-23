@@ -31,6 +31,9 @@ payload:
   - DOMAIN-SUFFIX,geller-pa.googleapis.com             # 实验性功能后端
   - DOMAIN-SUFFIX,ai.google.dev
   - DOMAIN-SUFFIX,google.dev
+  - DOMAIN-SUFFIX,ggpht.com
+  - DOMAIN-SUFFIX,gstatic.com
+  - DOMAIN-SUFFIX,googleusercontent.com
 
 
   # >>> Anthropic Claude <<<
