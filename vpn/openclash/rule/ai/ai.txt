@@ -27,6 +27,9 @@ payload:
   - DOMAIN-SUFFIX,stitch.withgoogle.com                # Stitch 应用
   - DOMAIN-SUFFIX,robinfrontend-pa.googleapis.com      # 前端交互 API
   - DOMAIN-SUFFIX,geller-pa.googleapis.com             # 实验性功能后端
+  - DOMAIN-SUFFIX,oauthaccountmanager.googleapis.com
+  - DOMAIN-SUFFIX,lensfrontend-pa.googleapis.com
+  - DOMAIN-SUFFIX,optimizationguide-pa.googleapis.com
 
   # >>> Anthropic Claude <<<
   - DOMAIN-SUFFIX,anthropic.com                 # Anthropic 公司官网及 API
