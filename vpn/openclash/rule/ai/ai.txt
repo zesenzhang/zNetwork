@@ -30,6 +30,7 @@ payload:
   - DOMAIN-SUFFIX,oauthaccountmanager.googleapis.com
   - DOMAIN-SUFFIX,lensfrontend-pa.googleapis.com
   - DOMAIN-SUFFIX,optimizationguide-pa.googleapis.com
+  - DOMAIN-SUFFIX,storage.googleapis.com
 
   # >>> Anthropic Claude <<<
   - DOMAIN-SUFFIX,anthropic.com                 # Anthropic 公司官网及 API
