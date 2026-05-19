@@ -194,6 +194,12 @@ payload:
   - DOMAIN-SUFFIX,nirsoft.net
   - DOMAIN-SUFFIX,bahraniapps.com
 
+  # --- Music ---
+  - DOMAIN-SUFFIX,last.fm
+  - DOMAIN-SUFFIX,spotify.com
+  - DOMAIN-SUFFIX,scdn.co
+  - DOMAIN-SUFFIX,listenbrainz.org
+
   # --- A ---
   - DOMAIN-SUFFIX,e-hentai.org
   - DOMAIN-SUFFIX,pornhub.com
