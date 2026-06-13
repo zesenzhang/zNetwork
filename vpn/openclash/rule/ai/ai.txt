@@ -12,6 +12,34 @@ payload:
   - DOMAIN,ios.chat.openai.com                  # iOS 客户端专属 API
   - DOMAIN,android.chat.openai.com              # Android 客户端专属 API
 
+  # >>> GPT Image / DALL-E <<<  
+  - DOMAIN,api.openai.com                       # GPT-Image API
+  - DOMAIN-SUFFIX,oaiusercontent.com            # 图片下载与展示
+  - DOMAIN-SUFFIX,blob.core.windows.net         # 图片存储CDN
+  
+  # >>> ComfyUI 官方 <<<
+  - DOMAIN-SUFFIX,comfy.org                     # Comfy 官方
+  - DOMAIN-SUFFIX,comfyui.org                   # ComfyUI 官方
+  - DOMAIN-SUFFIX,registry.comfy.org            # Comfy Registry
+  - DOMAIN-SUFFIX,api.comfy.org                 # Comfy API
+
+  # >>> CivitAI <<<
+  - DOMAIN-SUFFIX,civitai.com                   # CivitAI
+  - DOMAIN-SUFFIX,civitai.green                 # CivitAI CDN
+
+  # >>> Fal AI <<<
+  - DOMAIN-SUFFIX,fal.ai                        # Fal AI
+
+  # >>> Replicate <<<
+  - DOMAIN-SUFFIX,replicate.com                 # Replicate
+
+  # >>> OpenRouter <<<
+  - DOMAIN-SUFFIX,openrouter.ai                 # OpenRouter
+
+  # >>> Stability AI <<<
+  - DOMAIN-SUFFIX,stability.ai
+  - DOMAIN-SUFFIX,dreamstudio.ai
+
   # >>> Google Gemini (Bard) <<<
   - DOMAIN-SUFFIX,gemini.google.com             # Gemini 网页端主入口
   - DOMAIN-SUFFIX,withgoogle.com                # StitchDesign
