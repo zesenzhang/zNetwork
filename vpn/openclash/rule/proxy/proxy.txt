@@ -1,6 +1,5 @@
 payload:
   # --- plex ---
-  - DOMAIN-SUFFIX,plex.tv
   - DOMAIN-SUFFIX,plex.media
   - DOMAIN-SUFFIX,plexusercontent.com
   - DOMAIN-SUFFIX,plex.bz
