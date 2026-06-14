@@ -3,6 +3,7 @@ payload:
   # PLEX本地服务
   - DOMAIN,plex.tv
   - DOMAIN,app.plex.tv
+  - DOMAIN,clients.plex.tv
   - DOMAIN-SUFFIX,plex.direct
   - DOMAIN-KEYWORD,plex.direct
   - DST-PORT,32400
