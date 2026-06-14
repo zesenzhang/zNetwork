@@ -5,6 +5,14 @@ payload:
   - DOMAIN-SUFFIX,plexusercontent.com
   - DOMAIN-SUFFIX,plex.bz
   - DOMAIN-SUFFIX,plex.services
+  - DOMAIN-SUFFIX,plex.mp
+
+  # 元数据刮削（TMDb / TVDB）
+  - DOMAIN-SUFFIX,themoviedb.org
+  - DOMAIN-SUFFIX,tmdb.org
+  - DOMAIN-SUFFIX,thetvdb.com
+  - DOMAIN-SUFFIX,tvdb.com
+  - DOMAIN-KEYWORD,plex-meta-data
 
   # --- Google ---
   - DOMAIN-SUFFIX,doubleclick.net
