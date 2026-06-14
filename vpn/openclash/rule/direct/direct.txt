@@ -3,6 +3,8 @@ payload:
   # PLEX本地服务
   - DOMAIN-SUFFIX,plex.direct
   - DOMAIN-KEYWORD,plex.direct
+  - DST-PORT,32400
+  - DST-PORT,6102
 
   # 常用 CN / 本地服务
   - DOMAIN-SUFFIX,qpic.cn
