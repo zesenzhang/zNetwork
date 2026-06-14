@@ -1,9 +1,9 @@
 payload:
   # 放在最前面，确保最高优先级
   # PLEX本地服务
-  - DOMAIN,plex.tv
-  - DOMAIN,app.plex.tv
-  - DOMAIN,clients.plex.tv
+  - DOMAIN,connections.plex.tv
+  - DOMAIN,pubsub.plex.tv
+  - DOMAIN,vms.plex.tv
   - DOMAIN-SUFFIX,plex.direct
   - DOMAIN-KEYWORD,plex.direct
   - DST-PORT,32400
