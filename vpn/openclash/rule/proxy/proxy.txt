@@ -67,6 +67,14 @@ payload:
   - DOMAIN-SUFFIX,ea.com
   - DOMAIN-SUFFIX,quadspinner.com
 
+  # ==================== Steam 商店与社区（建议走代理） ====================
+  # 解决 118/105 错误，顺畅刷商店、创意工坊、好友列表
+  - DOMAIN-SUFFIX,steampowered.com
+  - DOMAIN-SUFFIX,steamcommunity.com
+  - DOMAIN-SUFFIX,steamusercontent.com
+  - DOMAIN-SUFFIX,steamstatic.com
+  - DOMAIN-KEYWORD,steam
+
   # Sony / PlayStation / PS游戏机 / 需要代理
    # 核心账号认证、登录与权限校验
   - DOMAIN-SUFFIX,sonyentertainmentnetwork.com
