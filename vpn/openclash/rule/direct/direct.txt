@@ -115,5 +115,23 @@ payload:
   - DOMAIN-SUFFIX,pinyuncloud.com
   - DOMAIN-SUFFIX,mileweb.cs.steampowered.com
 
+  # ==================== Steam 中国/官方下载（强制直连） ====================
+  - DOMAIN-SUFFIX,steamchina.com
+  - DOMAIN-SUFFIX,myqcloud.com
+  - DOMAIN-SUFFIX,bscstorage.net
+  - DOMAIN-SUFFIX,eccdnx.com
+  - DOMAIN-SUFFIX,pinyuncloud.com
+  - DOMAIN-SUFFIX,mileweb.cs.steampowered.com
+  - DOMAIN-SUFFIX,steamcontent.com
+  - DOMAIN-SUFFIX,steamdownloads.com
+  - DOMAIN,st.dl.bscstorage.net
+  - DOMAIN,st.dl.eccdnx.com
+  - DOMAIN,st.dl.pinyuncloud.com
+
+  # ==================== Steam 游戏进程与联机（强制直连） ====================
+  # 确保游戏内的对战流量、UDP 直连，不走代理（防止卡顿、延迟高）
+  - PROCESS-NAME,steam.exe
+  - PROCESS-NAME,steamwebhelper.exe
+
   # 红警重聚未来
   - DOMAIN-SUFFIX,gamesurge.net
