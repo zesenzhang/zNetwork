@@ -107,31 +107,48 @@ payload:
   # Microsoft CN
   - DOMAIN-SUFFIX,iwin10.com
 
-  # Steam 中国
-  - DOMAIN-SUFFIX,steamchina.com
+# Steam 中国
+- DOMAIN-SUFFIX,steamchina.com
 
-  # Steam 下载 CDN
-  - DOMAIN-SUFFIX,steamcontent.com
-  - DOMAIN-SUFFIX,steamcontent.net
-  - DOMAIN-SUFFIX,steamserver.net
-  - DOMAIN-SUFFIX,steamstatic.com
-  - DOMAIN-SUFFIX,steamcdn-a.akamaihd.net
-  - DOMAIN-SUFFIX,steamcdn-a.akamai.net
-  - DOMAIN-SUFFIX,fastly.steamstatic.com
-  - DOMAIN-SUFFIX,cdn.cloudflare.steamstatic.com
+# Steam 下载 CDN
+- DOMAIN-SUFFIX,steamcontent.com
+- DOMAIN-SUFFIX,steamcontent.net
+- DOMAIN-SUFFIX,steamserver.net
+- DOMAIN-SUFFIX,steamstatic.com
+- DOMAIN-SUFFIX,steamcdn-a.akamaihd.net
+- DOMAIN-SUFFIX,steamcdn-a.akamai.net
+- DOMAIN-SUFFIX,fastly.steamstatic.com
+- DOMAIN-SUFFIX,cdn.cloudflare.steamstatic.com
 
-  # Steam 中国 CDN
-  - DOMAIN-SUFFIX,myqcloud.com
-  - DOMAIN-SUFFIX,bscstorage.net
-  - DOMAIN-SUFFIX,eccdnx.com
-  - DOMAIN-SUFFIX,pinyuncloud.com
-  - DOMAIN-SUFFIX,mileweb.cs.steampowered.com
+# Steam 中国 CDN
+- DOMAIN-SUFFIX,myqcloud.com
+- DOMAIN-SUFFIX,bscstorage.net
+- DOMAIN-SUFFIX,eccdnx.com
+- DOMAIN-SUFFIX,pinyuncloud.com
+- DOMAIN-SUFFIX,mileweb.cs.steampowered.com
 
-  # Steam 关键字（下载/游戏连接）
-  - DOMAIN-KEYWORD,steamcontent
-  - DOMAIN-KEYWORD,steamcdn
-  - DOMAIN-KEYWORD,steamserver
-  - DOMAIN-KEYWORD,cm.steampowered
+# Steam 游戏连接
+- DOMAIN-KEYWORD,steamcontent
+- DOMAIN-KEYWORD,steamcdn
+- DOMAIN-KEYWORD,steamserver
+- DOMAIN-KEYWORD,cm.steampowered
+
+##################################################
+# Relic（英雄连、战锤40K等）（推荐：DIRECT）
+##################################################
+
+# Relic Online
+- DOMAIN-SUFFIX,reliclink.com
+- DOMAIN-SUFFIX,relic.com
+
+##################################################
+# SEGA（英雄连发行商）（推荐：DIRECT）
+##################################################
+
+# SEGA
+- DOMAIN-SUFFIX,sega.com
+- DOMAIN-SUFFIX,segacdn.com
+
 
   # 红警重聚未来
   - DOMAIN-SUFFIX,gamesurge.net
