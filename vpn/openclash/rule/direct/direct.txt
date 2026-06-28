@@ -107,31 +107,31 @@ payload:
   # Microsoft CN
   - DOMAIN-SUFFIX,iwin10.com
 
-  # Steam China CDN
+  # Steam 中国
   - DOMAIN-SUFFIX,steamchina.com
-  - DOMAIN-SUFFIX,myqcloud.com
-  - DOMAIN-SUFFIX,bscstorage.net
-  - DOMAIN-SUFFIX,eccdnx.com
-  - DOMAIN-SUFFIX,pinyuncloud.com
-  - DOMAIN-SUFFIX,mileweb.cs.steampowered.com
 
-  # ==================== Steam 中国/官方下载（强制直连） ====================
-  - DOMAIN-SUFFIX,steamchina.com
-  - DOMAIN-SUFFIX,myqcloud.com
-  - DOMAIN-SUFFIX,bscstorage.net
-  - DOMAIN-SUFFIX,eccdnx.com
-  - DOMAIN-SUFFIX,pinyuncloud.com
-  - DOMAIN-SUFFIX,mileweb.cs.steampowered.com
+  # Steam 下载 CDN
   - DOMAIN-SUFFIX,steamcontent.com
-  - DOMAIN-SUFFIX,steamdownloads.com
-  - DOMAIN,st.dl.bscstorage.net
-  - DOMAIN,st.dl.eccdnx.com
-  - DOMAIN,st.dl.pinyuncloud.com
+  - DOMAIN-SUFFIX,steamcontent.net
+  - DOMAIN-SUFFIX,steamserver.net
+  - DOMAIN-SUFFIX,steamstatic.com
+  - DOMAIN-SUFFIX,steamcdn-a.akamaihd.net
+  - DOMAIN-SUFFIX,steamcdn-a.akamai.net
+  - DOMAIN-SUFFIX,fastly.steamstatic.com
+  - DOMAIN-SUFFIX,cdn.cloudflare.steamstatic.com
 
-  # ==================== Steam 游戏进程与联机（强制直连） ====================
-  # 确保游戏内的对战流量、UDP 直连，不走代理（防止卡顿、延迟高）
-  - PROCESS-NAME,steam.exe
-  - PROCESS-NAME,steamwebhelper.exe
+  # Steam 中国 CDN
+  - DOMAIN-SUFFIX,myqcloud.com
+  - DOMAIN-SUFFIX,bscstorage.net
+  - DOMAIN-SUFFIX,eccdnx.com
+  - DOMAIN-SUFFIX,pinyuncloud.com
+  - DOMAIN-SUFFIX,mileweb.cs.steampowered.com
+
+  # Steam 关键字（下载/游戏连接）
+  - DOMAIN-KEYWORD,steamcontent
+  - DOMAIN-KEYWORD,steamcdn
+  - DOMAIN-KEYWORD,steamserver
+  - DOMAIN-KEYWORD,cm.steampowered
 
   # 红警重聚未来
   - DOMAIN-SUFFIX,gamesurge.net
