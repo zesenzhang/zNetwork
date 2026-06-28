@@ -67,13 +67,21 @@ payload:
   - DOMAIN-SUFFIX,ea.com
   - DOMAIN-SUFFIX,quadspinner.com
 
-  # ==================== Steam 商店与社区（建议走代理） ====================
-  # 解决 118/105 错误，顺畅刷商店、创意工坊、好友列表
+
+  # Steam 商店 / 社区（推荐：PROXY）
+  ###############################################
+  # Steam 主站（商店、登录、API）
   - DOMAIN-SUFFIX,steampowered.com
+  # Steam 社区（创意工坊、截图、讨论区）
   - DOMAIN-SUFFIX,steamcommunity.com
+  # Steam 聊天
+  - DOMAIN-SUFFIX,steam-chat.com
+  # Steam TV
+  - DOMAIN-SUFFIX,steam.tv
+  # Steam 用户资源
   - DOMAIN-SUFFIX,steamusercontent.com
-  - DOMAIN-SUFFIX,steamstatic.com
-  - DOMAIN-KEYWORD,steam
+  # Steam 游戏官网（部分游戏页面）
+  - DOMAIN-SUFFIX,steamgames.com
 
   # Sony / PlayStation / PS游戏机 / 需要代理
    # 核心账号认证、登录与权限校验
