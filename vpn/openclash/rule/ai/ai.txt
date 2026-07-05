@@ -40,29 +40,29 @@ payload:
   - DOMAIN-SUFFIX,stability.ai
   - DOMAIN-SUFFIX,dreamstudio.ai
 
-  # >>> Google Gemini (Bard) <<<
-  - DOMAIN-SUFFIX,gemini.google.com             # Gemini 网页端主入口
-  - DOMAIN-SUFFIX,withgoogle.com                # StitchDesign
-  - DOMAIN-SUFFIX,bard.google.com               # 原 Bard 兼容域名
-  - DOMAIN-SUFFIX,deepmind.com                  # DeepMind 官网
-  - DOMAIN-SUFFIX,deepmind.google               # DeepMind 相关 AI 服务
-  - DOMAIN-SUFFIX,generativelanguage.googleapis.com # Gemini API 核心数据传输
-  - DOMAIN-SUFFIX,proactivebackend-pa.googleapis.com # 移动端后端通讯
-  - DOMAIN-SUFFIX,aisandbox-pa.googleapis.com    # AI 测试沙盒环境
-  - DOMAIN,alkalimessages-pa.googleapis.com     # App 端消息处理接口
-  - DOMAIN-SUFFIX,labs.google.ai                # Google Labs 历史域名
-  - DOMAIN-SUFFIX,labs.google                   # Google Labs 官方入口
-  - DOMAIN-SUFFIX,labs.google/fx/tools
-  - DOMAIN-SUFFIX,flow.google
-  - DOMAIN-SUFFIX,robinfrontend-pa.googleapis.com      # 前端交互 API
-  - DOMAIN-SUFFIX,geller-pa.googleapis.com             # 实验性功能后端
-  - DOMAIN-SUFFIX,ai.google.dev
-  - DOMAIN-SUFFIX,google.dev
-  - DOMAIN-SUFFIX,ggpht.com
-  - DOMAIN-SUFFIX,gstatic.com
-  - DOMAIN-SUFFIX,googleusercontent.com
-  - DOMAIN-SUFFIX,support.google.com
-  - DOMAIN-SUFFIX,googletagmanager.com
+# >>> Google Gemini (Bard) Core <<<
+- DOMAIN,gemini.google.com
+- DOMAIN,bard.google.com
+- DOMAIN-SUFFIX,deepmind.com
+- DOMAIN-SUFFIX,deepmind.google
+- DOMAIN-SUFFIX,proversity.goog
+- DOMAIN-KEYWORD,alamofire
+
+# >>> Gemini API & Developer Studio <<<
+- DOMAIN,ai.google.dev
+- DOMAIN,aistudio.google.com
+- DOMAIN,generativelanguage.googleapis.com
+
+# >>> Google Labs & Experimental AI <<<
+- DOMAIN-SUFFIX,labs.google
+- DOMAIN-SUFFIX,flow.google
+
+# >>> Mobile App & Backend APIs <<<
+- DOMAIN,alkalimessages-pa.googleapis.com
+- DOMAIN-SUFFIX,proactivebackend-pa.googleapis.com
+- DOMAIN-SUFFIX,aisandbox-pa.googleapis.com
+- DOMAIN-SUFFIX,robinfrontend-pa.googleapis.com
+- DOMAIN-SUFFIX,geller-pa.googleapis.com
 
   # >>> Anthropic Claude <<<
   - DOMAIN-SUFFIX,anthropic.com                 # Anthropic 公司官网及 API
