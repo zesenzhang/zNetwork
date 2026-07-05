@@ -13,23 +13,43 @@ payload:
   - DOMAIN-SUFFIX,tvdb.com
   - DOMAIN-KEYWORD,plex-meta-data
 
-  # --- Google ---
-  - DOMAIN-SUFFIX,doubleclick.net
-  - DOMAIN-SUFFIX,googleapis.cn
-  - DOMAIN-SUFFIX,google.com.tw
-  - DOMAIN-SUFFIX,google.com.hk
-  - DOMAIN-SUFFIX,dl.google.com
-  - DOMAIN-SUFFIX,tools.google.com
-  - DOMAIN-SUFFIX,gstatic.com
-  - DOMAIN-SUFFIX,googlevideo.com
-  - DOMAIN-SUFFIX,googleapis.com
-  - DOMAIN-SUFFIX,googleapis-cn.com
-  - DOMAIN-SUFFIX,xn--ngstr-lra8j.com
-  - DOMAIN-SUFFIX,googletagmanager.com
-  - DOMAIN-SUFFIX,googleusercontent.com
-  - DOMAIN-SUFFIX,google-analytics.com
-  - DOMAIN-SUFFIX,googleadservices.com
-  - DOMAIN-SUFFIX,googlesyndication.com
+# >>> Google Standard Services & Play Store <<<
+- DOMAIN-SUFFIX,google
+- DOMAIN-SUFFIX,google.com
+- DOMAIN-SUFFIX,google.com.hk
+- DOMAIN-SUFFIX,google.com.tw
+- DOMAIN-SUFFIX,googleplay.com
+- DOMAIN-SUFFIX,googleapis.com
+- DOMAIN-SUFFIX,gvt1.com
+- DOMAIN-SUFFIX,dl.google.com
+- DOMAIN-SUFFIX,tools.google.com
+
+# >>> Google Public & Shared Infrastructure (从 AI 组移至此处) <<<
+- DOMAIN-SUFFIX,gstatic.com              # 谷歌静态资源（字体、样式、脚本）
+- DOMAIN-SUFFIX,googleusercontent.com    # 谷歌云盘、相册、用户上传内容
+- DOMAIN-SUFFIX,ggpht.com                # 谷歌图片与头像缓存服务器
+- DOMAIN-SUFFIX,withgoogle.com           # 谷歌营销与展示类子网站通用后缀
+- DOMAIN-SUFFIX,google.dev               # 谷歌非 AI 的开发者通用后缀
+
+# >>> YouTube Services <<<
+- DOMAIN-SUFFIX,youtube.com
+- DOMAIN-SUFFIX,googlevideo.com
+- DOMAIN-SUFFIX,ytimg.com
+
+# >>> Google China Services (Optional) <<<
+- DOMAIN-SUFFIX,googleapis.cn
+- DOMAIN-SUFFIX,googleapis-cn.com
+
+# >>> Google Ads & Analytics & Tags <<<
+- DOMAIN-SUFFIX,googletagmanager.com
+- DOMAIN-SUFFIX,google-analytics.com
+- DOMAIN-SUFFIX,doubleclick.net
+- DOMAIN-SUFFIX,googleadservices.com
+- DOMAIN-SUFFIX,googlesyndication.com
+
+# >>> Miscs (Play Store Download Tracks) <<<
+- DOMAIN-SUFFIX,xn--ngstr-lra8j.com
+- DOMAIN-SUFFIX,xn--ngstr-gza.com
 
   # --- Github ---
   - DOMAIN-SUFFIX,github.com
