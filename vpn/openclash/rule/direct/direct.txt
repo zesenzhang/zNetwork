@@ -45,6 +45,7 @@ payload:
   # Game
   - DOMAIN-SUFFIX,ali213.net
   - DOMAIN-SUFFIX,gamesurge.net
+  - DOMAIN-SUFFIX,privacy.xboxlive.com
 
   # Design / Ads
   - DOMAIN-SUFFIX,zcool.com.cn
