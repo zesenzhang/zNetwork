@@ -133,6 +133,7 @@ payload:
 - DOMAIN-KEYWORD,steamcdn
 - DOMAIN-KEYWORD,steamserver
 - DOMAIN-KEYWORD,cm.steampowered
+- DOMAIN-KEYWORD,clientconfig.akamai.steamstatic.com
 
 ##################################################
 # Relic（英雄连、战锤40K等）（推荐：DIRECT）
