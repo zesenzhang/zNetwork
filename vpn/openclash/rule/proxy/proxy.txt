@@ -90,8 +90,6 @@ payload:
 
 # Steam 商店 / 社区（推荐：PROXY）
 ###############################################
-# Steam 主站（商店、登录、API）
-- DOMAIN-SUFFIX,steampowered.com
 # Steam 社区（创意工坊、截图、讨论区）
 - DOMAIN-SUFFIX,steamcommunity.com
 # Steam 聊天
@@ -245,7 +243,7 @@ payload:
 - DOMAIN-SUFFIX,scdn.co
 - DOMAIN-SUFFIX,listenbrainz.org
 
-  # --- A ---
-  - DOMAIN-SUFFIX,e-hentai.org
-  - DOMAIN-SUFFIX,pornhub.com
-  - DOMAIN-SUFFIX,sex.com
+# --- A ---
+- DOMAIN-SUFFIX,e-hentai.org
+- DOMAIN-SUFFIX,pornhub.com
+- DOMAIN-SUFFIX,sex.com
