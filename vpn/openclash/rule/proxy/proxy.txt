@@ -1,17 +1,17 @@
 payload:
-  # --- plex ---
-  - DOMAIN-SUFFIX,plex.media
-  - DOMAIN-SUFFIX,plexusercontent.com
-  - DOMAIN-SUFFIX,plex.bz
-  - DOMAIN-SUFFIX,plex.services
-  - DOMAIN-SUFFIX,plex.mp
+# --- plex ---
+- DOMAIN-SUFFIX,plex.media
+- DOMAIN-SUFFIX,plexusercontent.com
+- DOMAIN-SUFFIX,plex.bz
+- DOMAIN-SUFFIX,plex.services
+- DOMAIN-SUFFIX,plex.mp
 
-  # 元数据刮削（TMDb / TVDB）
-  - DOMAIN-SUFFIX,themoviedb.org
-  - DOMAIN-SUFFIX,tmdb.org
-  - DOMAIN-SUFFIX,thetvdb.com
-  - DOMAIN-SUFFIX,tvdb.com
-  - DOMAIN-KEYWORD,plex-meta-data
+# 元数据刮削（TMDb / TVDB）
+- DOMAIN-SUFFIX,themoviedb.org
+- DOMAIN-SUFFIX,tmdb.org
+- DOMAIN-SUFFIX,thetvdb.com
+- DOMAIN-SUFFIX,tvdb.com
+- DOMAIN-KEYWORD,plex-meta-data
 
 # >>> Google Standard Services & Play Store <<<
 - DOMAIN-SUFFIX,google
@@ -51,123 +51,123 @@ payload:
 - DOMAIN-SUFFIX,xn--ngstr-lra8j.com
 - DOMAIN-SUFFIX,xn--ngstr-gza.com
 
-  # --- Github ---
-  - DOMAIN-SUFFIX,github.com
-  - DOMAIN-SUFFIX,ghcr.io
-  - DOMAIN-SUFFIX,github.io
-  - DOMAIN-SUFFIX,githubusercontent.com
-  - DOMAIN-SUFFIX,raw.githubusercontent.com
-  - DOMAIN-SUFFIX,github.global.ssl.fastly.net
-  - DOMAIN-SUFFIX,assets-cdn.github.com
-  - DOMAIN-SUFFIX,git-scm.com
+# --- Github ---
+- DOMAIN-SUFFIX,github.com
+- DOMAIN-SUFFIX,ghcr.io
+- DOMAIN-SUFFIX,github.io
+- DOMAIN-SUFFIX,githubusercontent.com
+- DOMAIN-SUFFIX,raw.githubusercontent.com
+- DOMAIN-SUFFIX,github.global.ssl.fastly.net
+- DOMAIN-SUFFIX,assets-cdn.github.com
+- DOMAIN-SUFFIX,git-scm.com
 
-  # --- 安卓应用下载 ---
-  - DOMAIN-SUFFIX,apkmirror.com
+# --- 安卓应用下载 ---
+- DOMAIN-SUFFIX,apkmirror.com
 
-  # --- 社交 / 视频 / 论坛 ---
-  - DOMAIN-SUFFIX,twitter.com
-  - DOMAIN-SUFFIX,facebook.com
-  - DOMAIN-SUFFIX,reddit.com
-  - DOMAIN-SUFFIX,tumblr.com
-  - DOMAIN-SUFFIX,daum.net
-  - DOMAIN-SUFFIX,notepad-plus-plus.org
-  - DOMAIN-SUFFIX,magisto.com
-  - DOMAIN-SUFFIX,akamaized.net
-  - DOMAIN-SUFFIX,firebaseio.com
-  - DOMAIN-SUFFIX,transcend.io
-  - DOMAIN-SUFFIX,thisiscolossal.com
+# --- 社交 / 视频 / 论坛 ---
+- DOMAIN-SUFFIX,twitter.com
+- DOMAIN-SUFFIX,facebook.com
+- DOMAIN-SUFFIX,reddit.com
+- DOMAIN-SUFFIX,tumblr.com
+- DOMAIN-SUFFIX,daum.net
+- DOMAIN-SUFFIX,notepad-plus-plus.org
+- DOMAIN-SUFFIX,magisto.com
+- DOMAIN-SUFFIX,akamaized.net
+- DOMAIN-SUFFIX,firebaseio.com
+- DOMAIN-SUFFIX,transcend.io
+- DOMAIN-SUFFIX,thisiscolossal.com
 
-  # --- Zesen / 备用 ---
-  - DOMAIN-SUFFIX,zesen.net
-  - DOMAIN-SUFFIX,bebezhou.com
+# --- Zesen / 备用 ---
+- DOMAIN-SUFFIX,zesen.net
+- DOMAIN-SUFFIX,bebezhou.com
 
-  # --- 游戏 ---
-  - DOMAIN-SUFFIX,nintendo.com
-  - DOMAIN-SUFFIX,nintendo.net
-  - DOMAIN-SUFFIX,ea.com
-  - DOMAIN-SUFFIX,quadspinner.com
+# --- 游戏 ---
+- DOMAIN-SUFFIX,nintendo.com
+- DOMAIN-SUFFIX,nintendo.net
+- DOMAIN-SUFFIX,ea.com
+- DOMAIN-SUFFIX,quadspinner.com
 
 
-  # Steam 商店 / 社区（推荐：PROXY）
-  ###############################################
-  # Steam 主站（商店、登录、API）
-  - DOMAIN-SUFFIX,steampowered.com
-  # Steam 社区（创意工坊、截图、讨论区）
-  - DOMAIN-SUFFIX,steamcommunity.com
-  # Steam 聊天
-  - DOMAIN-SUFFIX,steam-chat.com
-  # Steam TV
-  - DOMAIN-SUFFIX,steam.tv
-  # Steam 用户资源
-  - DOMAIN-SUFFIX,steamusercontent.com
-  # Steam 游戏官网（部分游戏页面）
-  - DOMAIN-SUFFIX,steamgames.com
+# Steam 商店 / 社区（推荐：PROXY）
+###############################################
+# Steam 主站（商店、登录、API）
+- DOMAIN-SUFFIX,steampowered.com
+# Steam 社区（创意工坊、截图、讨论区）
+- DOMAIN-SUFFIX,steamcommunity.com
+# Steam 聊天
+- DOMAIN-SUFFIX,steam-chat.com
+# Steam TV
+- DOMAIN-SUFFIX,steam.tv
+# Steam 用户资源
+- DOMAIN-SUFFIX,steamusercontent.com
+# Steam 游戏官网（部分游戏页面）
+- DOMAIN-SUFFIX,steamgames.com
 
-  # Sony / PlayStation / PS游戏机 / 需要代理
-   # 核心账号认证、登录与权限校验
-  - DOMAIN-SUFFIX,sonyentertainmentnetwork.com
-  - DOMAIN-SUFFIX,auth.api.sonyentertainmentnetwork.com
-  - DOMAIN-SUFFIX,account.sonyentertainmentnetwork.com
-  - DOMAIN-SUFFIX,id.sonyentertainmentnetwork.com
-  # PSN 商店、内容购买与页面服务
-  - DOMAIN-SUFFIX,store.playstation.com
-  - DOMAIN-SUFFIX,api.playstation.com
-  - DOMAIN-SUFFIX,web.np.playstation.com
-  # PlayStation Plus 会员相关服务
-  - DOMAIN-SUFFIX,plus.playstation.com
-  # 奖杯同步、成就与游戏数据服务
-  - DOMAIN-SUFFIX,trophy.api.sonyentertainmentnetwork.com
-  - DOMAIN-SUFFIX,nptitle.acplaystation.net
-  # 联机匹配、房间会话与派对语音服务
-  - DOMAIN-SUFFIX,np.community.playstation.net
-  - DOMAIN-SUFFIX,matchmaking.playstation.net
-  - DOMAIN-SUFFIX,voice.chat.playstation.net
-  - DOMAIN-SUFFIX,party.playstation.net
-  # 好友、消息与社交互动服务
-  - DOMAIN-SUFFIX,community.api.sonyentertainmentnetwork.com
-  - DOMAIN-SUFFIX,friends.api.sonyentertainmentnetwork.com
-  - DOMAIN-SUFFIX,messages.api.sonyentertainmentnetwork.com
-  # 系统功能、远程管理与官方门户
-  - DOMAIN-SUFFIX,remoteplay.dl.playstation.net
-  - DOMAIN-SUFFIX,my.playstation.com
-  - DOMAIN-SUFFIX,manuals.playstation.net
-  # 系统更新/补丁下载
-  - DOMAIN-SUFFIX,update.playstation.net
+# Sony / PlayStation / PS游戏机 / 需要代理
+# 核心账号认证、登录与权限校验
+- DOMAIN-SUFFIX,sonyentertainmentnetwork.com
+- DOMAIN-SUFFIX,auth.api.sonyentertainmentnetwork.com
+- DOMAIN-SUFFIX,account.sonyentertainmentnetwork.com
+- DOMAIN-SUFFIX,id.sonyentertainmentnetwork.com
+# PSN 商店、内容购买与页面服务
+- DOMAIN-SUFFIX,store.playstation.com
+- DOMAIN-SUFFIX,api.playstation.com
+- DOMAIN-SUFFIX,web.np.playstation.com
+# PlayStation Plus 会员相关服务
+- DOMAIN-SUFFIX,plus.playstation.com
+# 奖杯同步、成就与游戏数据服务
+- DOMAIN-SUFFIX,trophy.api.sonyentertainmentnetwork.com
+- DOMAIN-SUFFIX,nptitle.acplaystation.net
+# 联机匹配、房间会话与派对语音服务
+- DOMAIN-SUFFIX,np.community.playstation.net
+- DOMAIN-SUFFIX,matchmaking.playstation.net
+- DOMAIN-SUFFIX,voice.chat.playstation.net
+- DOMAIN-SUFFIX,party.playstation.net
+# 好友、消息与社交互动服务
+- DOMAIN-SUFFIX,community.api.sonyentertainmentnetwork.com
+- DOMAIN-SUFFIX,friends.api.sonyentertainmentnetwork.com
+- DOMAIN-SUFFIX,messages.api.sonyentertainmentnetwork.com
+# 系统功能、远程管理与官方门户
+- DOMAIN-SUFFIX,remoteplay.dl.playstation.net
+- DOMAIN-SUFFIX,my.playstation.com
+- DOMAIN-SUFFIX,manuals.playstation.net
+# 系统更新/补丁下载
+- DOMAIN-SUFFIX,update.playstation.net
 
-  # --- Docker / Linux ---
-  - DOMAIN-SUFFIX,docker.com
-  - DOMAIN-SUFFIX,docker.io
-  - DOMAIN-SUFFIX,debian.org
-  - DOMAIN-SUFFIX,dockerstatic.com
-  - DOMAIN-SUFFIX,curl.se
+# --- Docker / Linux ---
+- DOMAIN-SUFFIX,docker.com
+- DOMAIN-SUFFIX,docker.io
+- DOMAIN-SUFFIX,debian.org
+- DOMAIN-SUFFIX,dockerstatic.com
+- DOMAIN-SUFFIX,curl.se
 
-  # --- OpenWRT ---
-  - DOMAIN-SUFFIX,openwrt.org
-  - DOMAIN-SUFFIX,istoreos.com
+# --- OpenWRT ---
+- DOMAIN-SUFFIX,openwrt.org
+- DOMAIN-SUFFIX,istoreos.com
 
-  # --- Design  ---
-  - DOMAIN-SUFFIX,figma.com
-  - DOMAIN-SUFFIX,figma.cool
-  - DOMAIN-SUFFIX,dribbble.com
-  - DOMAIN-SUFFIX,artstation.com
-  - DOMAIN-SUFFIX,cgsociety.org
-  - DOMAIN-SUFFIX,mixamo.com
-  - DOMAIN-SUFFIX,dopely.top
-  - DOMAIN-SUFFIX,iconscout.com
-  - DOMAIN-SUFFIX,blender.org
-  - DOMAIN-SUFFIX,behance.net
-  - DOMAIN-SUFFIX,behance.app.link
-  - DOMAIN-SUFFIX,pinterest.com
-  - DOMAIN-SUFFIX,pinimg.com
-  - DOMAIN-SUFFIX,pinterest.net
-  - DOMAIN-SUFFIX,addtoany.com
-  - DOMAIN-SUFFIX,chaos.com
-  - DOMAIN-SUFFIX,chaosgroup.com
-  - DOMAIN-SUFFIX,imgix.net
-  - DOMAIN-SUFFIX,turbosquid.com
+# --- Design  ---
+- DOMAIN-SUFFIX,figma.com
+- DOMAIN-SUFFIX,figma.cool
+- DOMAIN-SUFFIX,dribbble.com
+- DOMAIN-SUFFIX,artstation.com
+- DOMAIN-SUFFIX,cgsociety.org
+- DOMAIN-SUFFIX,mixamo.com
+- DOMAIN-SUFFIX,dopely.top
+- DOMAIN-SUFFIX,iconscout.com
+- DOMAIN-SUFFIX,blender.org
+- DOMAIN-SUFFIX,behance.net
+- DOMAIN-SUFFIX,behance.app.link
+- DOMAIN-SUFFIX,pinterest.com
+- DOMAIN-SUFFIX,pinimg.com
+- DOMAIN-SUFFIX,pinterest.net
+- DOMAIN-SUFFIX,addtoany.com
+- DOMAIN-SUFFIX,chaos.com
+- DOMAIN-SUFFIX,chaosgroup.com
+- DOMAIN-SUFFIX,imgix.net
+- DOMAIN-SUFFIX,turbosquid.com
 
-  # --- OTOY ---
-  - DOMAIN-SUFFIX,otoy.com
+# --- OTOY ---
+- DOMAIN-SUFFIX,otoy.com
 
   # --- Maxon ---
   - DOMAIN-SUFFIX,redshift3d.com
@@ -231,15 +231,15 @@ payload:
   - DOMAIN-SUFFIX,papaly.com
   - DOMAIN-SUFFIX,feeder.co
 
-  # --- 图片素材 ---
-  - DOMAIN-SUFFIX,uhdpaper.com
-  - DOMAIN-SUFFIX,img.uhdpaper.com
+# --- 图片素材 ---
+- DOMAIN-SUFFIX,uhdpaper.com
+- DOMAIN-SUFFIX,img.uhdpaper.com
 
-  # --- 软件工具 ---
-  - DOMAIN-SUFFIX,nirsoft.net
-  - DOMAIN-SUFFIX,bahraniapps.com
+# --- 软件工具 ---
+- DOMAIN-SUFFIX,nirsoft.net
+- DOMAIN-SUFFIX,bahraniapps.com
 
-  # --- Music ---
+# --- Music ---
   - DOMAIN-SUFFIX,last.fm
   - DOMAIN-SUFFIX,spotify.com
   - DOMAIN-SUFFIX,scdn.co
