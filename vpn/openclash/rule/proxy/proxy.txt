@@ -169,67 +169,67 @@ payload:
 # --- OTOY ---
 - DOMAIN-SUFFIX,otoy.com
 
-  # --- Maxon ---
-  - DOMAIN-SUFFIX,redshift3d.com
-  - DOMAIN-SUFFIX,maxon.net
+# --- Maxon ---
+- DOMAIN-SUFFIX,redshift3d.com
+- DOMAIN-SUFFIX,maxon.net
 
-  # --- Adobe ---
-  - DOMAIN-SUFFIX,adobe.com
-  - DOMAIN-SUFFIX,adobelogin.com
-  - DOMAIN-SUFFIX,adobe.io
+# --- Adobe ---
+- DOMAIN-SUFFIX,adobe.com
+- DOMAIN-SUFFIX,adobelogin.com
+- DOMAIN-SUFFIX,adobe.io
 
-  # --- TikTok ---
-  - DOMAIN-SUFFIX,tiktok.com
-  - DOMAIN-SUFFIX,tiktokcdn-us.com
-  - DOMAIN-SUFFIX,tiktokcdn.com
-  - DOMAIN-SUFFIX,tiktokv.com
-  - DOMAIN-SUFFIX,tiktokv.us
-  - DOMAIN-SUFFIX,tiktokw.us
+# --- TikTok ---
+- DOMAIN-SUFFIX,tiktok.com
+- DOMAIN-SUFFIX,tiktokcdn-us.com
+- DOMAIN-SUFFIX,tiktokcdn.com
+- DOMAIN-SUFFIX,tiktokv.com
+- DOMAIN-SUFFIX,tiktokv.us
+- DOMAIN-SUFFIX,tiktokw.us
 
-  # --- Youtube / Vimeo / Streaming ---
-  - DOMAIN-SUFFIX,youtube.com
-  - DOMAIN-SUFFIX,ytimg.com
-  - DOMAIN-SUFFIX,televzr.com
-  - DOMAIN-SUFFIX,vimeo.com
-  - DOMAIN-SUFFIX,vimeocdn.com
-  - DOMAIN-SUFFIX,image.tmdb.org
-  - DOMAIN-SUFFIX,api.themoviedb.org
+# --- Youtube / Vimeo / Streaming ---
+- DOMAIN-SUFFIX,youtube.com
+- DOMAIN-SUFFIX,ytimg.com
+- DOMAIN-SUFFIX,televzr.com
+- DOMAIN-SUFFIX,vimeo.com
+- DOMAIN-SUFFIX,vimeocdn.com
+- DOMAIN-SUFFIX,image.tmdb.org
+- DOMAIN-SUFFIX,api.themoviedb.org
 
-  # --- Cloud  ---
-  - DOMAIN-SUFFIX,cloudflare.com
-  - DOMAIN-SUFFIX,cloudfront.net
-  - DOMAIN-SUFFIX,cloudflarestorage.com
-  - DOMAIN-SUFFIX,cloudflareinsights.com
-  - DOMAIN-SUFFIX,stripe.com
-  - DOMAIN-SUFFIX,stripe.network
-  - DOMAIN-SUFFIX,letsencrypt.org
-  - DOMAIN-SUFFIX,akamai.net
-  - DOMAIN-SUFFIX,akamized.net
-  - DOMAIN-SUFFIX,fastly.net
-  - DOMAIN-SUFFIX,fbcdn.net
-  - DOMAIN-SUFFIX,d2-apps.net
-  - DOMAIN-SUFFIX,flashtalking.com
-  - DOMAIN-SUFFIX,cedexis.com
-  - DOMAIN-SUFFIX,instabug.com
-  - DOMAIN-SUFFIX,hotoss.com
-  - DOMAIN-SUFFIX,cookielaw.org
+# --- Cloud  ---
+- DOMAIN-SUFFIX,cloudflare.com
+- DOMAIN-SUFFIX,cloudfront.net
+- DOMAIN-SUFFIX,cloudflarestorage.com
+- DOMAIN-SUFFIX,cloudflareinsights.com
+- DOMAIN-SUFFIX,stripe.com
+- DOMAIN-SUFFIX,stripe.network
+- DOMAIN-SUFFIX,letsencrypt.org
+- DOMAIN-SUFFIX,akamai.net
+- DOMAIN-SUFFIX,akamized.net
+- DOMAIN-SUFFIX,fastly.net
+- DOMAIN-SUFFIX,fbcdn.net
+- DOMAIN-SUFFIX,d2-apps.net
+- DOMAIN-SUFFIX,flashtalking.com
+- DOMAIN-SUFFIX,cedexis.com
+- DOMAIN-SUFFIX,instabug.com
+- DOMAIN-SUFFIX,hotoss.com
+- DOMAIN-SUFFIX,cookielaw.org
 
-  # --- Wordpress  ---
-  - DOMAIN-SUFFIX,wordpress.org
-  - DOMAIN-SUFFIX,wordpress.com
-  - DOMAIN-SUFFIX,wp.com
+# --- Wordpress  ---
+- DOMAIN-SUFFIX,wordpress.org
+- DOMAIN-SUFFIX,wordpress.com
+- DOMAIN-SUFFIX,wp.com
 
-  # --- 开源项目 ---
-  - DOMAIN-SUFFIX,rocket.chat
+# --- 开源项目 ---
+- DOMAIN-SUFFIX,rocket.chat
 
-  # --- AdGuard ---
-  - DOMAIN-SUFFIX,adguard-dns.io
+# --- AdGuard ---
+- DOMAIN-SUFFIX,adguard-dns.io
 
-  # --- 书签工具 ---
-  - DOMAIN-SUFFIX,linkwarden.app
-  - DOMAIN-SUFFIX,linkcollect.io
-  - DOMAIN-SUFFIX,papaly.com
-  - DOMAIN-SUFFIX,feeder.co
+# --- 书签工具 ---
+- DOMAIN-SUFFIX,linkwarden.app
+- DOMAIN-SUFFIX,linkcollect.io
+- DOMAIN-SUFFIX,papaly.com
+- DOMAIN-SUFFIX,feeder.co
 
 # --- 图片素材 ---
 - DOMAIN-SUFFIX,uhdpaper.com
@@ -240,10 +240,10 @@ payload:
 - DOMAIN-SUFFIX,bahraniapps.com
 
 # --- Music ---
-  - DOMAIN-SUFFIX,last.fm
-  - DOMAIN-SUFFIX,spotify.com
-  - DOMAIN-SUFFIX,scdn.co
-  - DOMAIN-SUFFIX,listenbrainz.org
+- DOMAIN-SUFFIX,last.fm
+- DOMAIN-SUFFIX,spotify.com
+- DOMAIN-SUFFIX,scdn.co
+- DOMAIN-SUFFIX,listenbrainz.org
 
   # --- A ---
   - DOMAIN-SUFFIX,e-hentai.org
