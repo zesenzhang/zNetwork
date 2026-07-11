@@ -137,7 +137,14 @@ payload:
 - DOMAIN-KEYWORD,cm.steampowered
 - DOMAIN-KEYWORD,clientconfig.akamai.steamstatic.com
 
-
+# Relic（英雄连、战锤40K等）
+# Relic Online
+- DOMAIN-SUFFIX,reliclink.com
+- DOMAIN-SUFFIX,relic.com
+- DOMAIN-SUFFIX,companyofheroes.com
+- DOMAIN-SUFFIX,epicgames.com
+- DOMAIN-SUFFIX,epicgames.dev
+- DOMAIN-SUFFIX,ol.epicgames.com
 
 ##################################################
 # SEGA（英雄连发行商）（推荐：DIRECT）
