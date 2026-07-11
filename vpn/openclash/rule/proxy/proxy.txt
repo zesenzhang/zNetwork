@@ -101,6 +101,15 @@ payload:
 # Steam 游戏官网（部分游戏页面）
 - DOMAIN-SUFFIX,steamgames.com
 
+# Relic（英雄连、战锤40K等）
+# Relic Online
+- DOMAIN-SUFFIX,reliclink.com
+- DOMAIN-SUFFIX,relic.com
+- DOMAIN-SUFFIX,companyofheroes.com
+- DOMAIN-SUFFIX,epicgames.com
+- DOMAIN-SUFFIX,epicgames.dev
+- DOMAIN-SUFFIX,ol.epicgames.com
+
 # Sony / PlayStation / PS游戏机 / 需要代理
 # 核心账号认证、登录与权限校验
 - DOMAIN-SUFFIX,sonyentertainmentnetwork.com
