@@ -128,7 +128,6 @@ payload:
 - DOMAIN-SUFFIX,eccdnx.com
 - DOMAIN-SUFFIX,pinyuncloud.com
 - DOMAIN-SUFFIX,mileweb.cs.steampowered.com
-- DOMAIN-SUFFIX,store.steampowered.com
 
 # Steam 游戏连接
 - DOMAIN-KEYWORD,steamcontent
