@@ -100,6 +100,7 @@ payload:
 - DOMAIN-SUFFIX,steamusercontent.com
 # Steam 游戏官网（部分游戏页面）
 - DOMAIN-SUFFIX,steamgames.com
+- DOMAIN-SUFFIX,steampowered.com
 
 # Relic（英雄连、战锤40K等）
 # Relic Online
