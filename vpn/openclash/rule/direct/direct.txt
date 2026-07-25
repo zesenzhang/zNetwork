@@ -114,7 +114,6 @@ payload:
 # Steam 下载 CDN
 - DOMAIN-SUFFIX,steamcontent.com
 - DOMAIN-SUFFIX,steamcontent.net
-- DOMAIN-SUFFIX,steamusercontent.com
 - DOMAIN-SUFFIX,steamserver.net
 - DOMAIN-SUFFIX,steamstatic.com
 - DOMAIN-SUFFIX,steamcdn-a.akamaihd.net
