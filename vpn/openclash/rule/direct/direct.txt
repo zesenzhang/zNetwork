@@ -115,11 +115,7 @@ payload:
 - DOMAIN-SUFFIX,steamcontent.com
 - DOMAIN-SUFFIX,steamcontent.net
 - DOMAIN-SUFFIX,steamserver.net
-- DOMAIN-SUFFIX,steamstatic.com
-- DOMAIN-SUFFIX,steamcdn-a.akamaihd.net
-- DOMAIN-SUFFIX,steamcdn-a.akamai.net
-- DOMAIN-SUFFIX,fastly.steamstatic.com
-- DOMAIN-SUFFIX,cdn.cloudflare.steamstatic.com
+
 
 # Steam 中国 CDN
 - DOMAIN-SUFFIX,myqcloud.com
