@@ -102,6 +102,13 @@ payload:
 - DOMAIN-SUFFIX,steamgames.com
 - DOMAIN-SUFFIX,steampowered.com
 
+# 负责社区图片、UI 静态资源与图像分发
+- DOMAIN-SUFFIX,steamstatic.com
+- DOMAIN-SUFFIX,steamcdn-a.akamaihd.net
+- DOMAIN-SUFFIX,steamcdn-a.akamai.net
+- DOMAIN-SUFFIX,fastly.steamstatic.com
+- DOMAIN-SUFFIX,cdn.cloudflare.steamstatic.com
+
 # Relic（英雄连、战锤40K等）
 # Relic Online
 - DOMAIN-SUFFIX,reliclink.com
