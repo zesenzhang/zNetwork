@@ -116,7 +116,6 @@ payload:
 - DOMAIN-SUFFIX,steamcontent.net
 - DOMAIN-SUFFIX,steamserver.net
 
-
 # Steam 中国 CDN
 - DOMAIN-SUFFIX,myqcloud.com
 - DOMAIN-SUFFIX,bscstorage.net
