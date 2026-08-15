@@ -161,6 +161,7 @@ payload:
   - DOMAIN-SUFFIX,clients6.google.com
   - DOMAIN-SUFFIX,clients5.google.com
   - DOMAIN-SUFFIX,clients4.google.com
+  - DOMAIN,lh3.googleusercontent.com
 
   # ============================================================
   # >>> Google AI Labs / Creative AI <<<
