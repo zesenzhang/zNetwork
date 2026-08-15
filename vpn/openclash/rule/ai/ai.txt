@@ -145,6 +145,17 @@ payload:
   - DOMAIN-SUFFIX,deepmind.google
   - DOMAIN-SUFFIX,deepmind.com
 
+  # >>> Gemini Google Resources <<<
+  - DOMAIN,ssl.gstatic.com
+  - DOMAIN,www.gstatic.com
+  - DOMAIN,fonts.gstatic.com
+  - DOMAIN,fonts.googleapis.com
+
+  # >>> Gemini Google Services <<<
+  - DOMAIN,maps.gstatic.com
+  - DOMAIN,maps.googleapis.com
+  - DOMAIN,i.ytimg.com
+  - DOMAIN,yt3.ggpht.com
 
   # ============================================================
   # >>> Google AI Labs / Creative AI <<<
