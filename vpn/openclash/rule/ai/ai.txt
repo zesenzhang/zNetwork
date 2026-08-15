@@ -1,93 +1,251 @@
 payload:
+
+  # ============================================================
   # >>> OpenAI / ChatGPT <<<
-  - DOMAIN-SUFFIX,openai.com                    # OpenAI 官网及 API 接口
-  - DOMAIN-SUFFIX,chatgpt.com                   # ChatGPT 品牌新域名
-  - DOMAIN-SUFFIX,oaistatic.com                 # 静态资源（图片、JS、CSS）
-  - DOMAIN-SUFFIX,oaiusercontent.com            # 用户上传文件、DALL-E 生成图
-  - DOMAIN-SUFFIX,identrust.com                 # 网站证书验证（登录必备）
-  - DOMAIN-SUFFIX,auth0.com                     # 授权鉴权服务
-  - DOMAIN-SUFFIX,statsig.com                   # App 端实验分析（移动端登录关键）
-  - DOMAIN-SUFFIX,intercom.io                   # 网页版在线客服支持
-  - DOMAIN-SUFFIX,featuregates.org              # 灰度功能开关控制
-  - DOMAIN,ios.chat.openai.com                  # iOS 客户端专属 API
-  - DOMAIN,android.chat.openai.com              # Android 客户端专属 API
+  # ============================================================
 
-  # >>> GPT Image / DALL-E <<<  
-  - DOMAIN,api.openai.com                       # GPT-Image API
-  - DOMAIN-SUFFIX,oaiusercontent.com            # 图片下载与展示
-  - DOMAIN-SUFFIX,blob.core.windows.net         # 图片存储CDN
-  
-  # >>> ComfyUI 官方 <<<
-  - DOMAIN-SUFFIX,comfy.org                     # Comfy 官方
-  - DOMAIN-SUFFIX,comfyui.org                   # ComfyUI 官方
-  - DOMAIN-SUFFIX,registry.comfy.org            # Comfy Registry
-  - DOMAIN-SUFFIX,api.comfy.org                 # Comfy API
+  - DOMAIN-SUFFIX,openai.com
+  - DOMAIN-SUFFIX,chatgpt.com
+  - DOMAIN-SUFFIX,oaistatic.com
+  - DOMAIN-SUFFIX,oaiusercontent.com
 
+  # OpenAI Authentication
+  - DOMAIN-SUFFIX,auth.openai.com
+  - DOMAIN,auth0.openai.com
+
+  # OpenAI Mobile / Desktop
+  - DOMAIN,ios.chat.openai.com
+  - DOMAIN,android.chat.openai.com
+  - DOMAIN,desktop.chat.openai.com
+
+  # OpenAI CDN / Infrastructure
+  - DOMAIN,cdn.openaimerge.com
+
+  # OpenAI Authentication / Workspace
+  - DOMAIN,cdn.workos.com
+  - DOMAIN,forwarder.workos.com
+  - DOMAIN,setup.workos.com
+  - DOMAIN,images.workoscdn.com
+  - DOMAIN,workos.imgix.net
+
+  # OpenAI Web Services
+  - DOMAIN-SUFFIX,intercom.io
+  - DOMAIN-SUFFIX,intercomcdn.com
+  - DOMAIN,js.intercomcdn.com
+
+  # OpenAI API
+  - DOMAIN,api.openai.com
+
+  # OpenAI Monitoring / Experiment
+  - DOMAIN-SUFFIX,oaistatsig.com
+  - DOMAIN,o207216.ingest.sentry.io
+  - DOMAIN,o33249.ingest.sentry.io
+  - DOMAIN,rum.browser-intake-datadoghq.com
+
+  # Cloudflare Challenge
+  - DOMAIN,challenges.cloudflare.com
+
+  # Stripe
+  - DOMAIN,js.stripe.com
+
+  # Email / Notification
+  - DOMAIN-SUFFIX,ct.sendgrid.net
+
+
+  # ============================================================
+  # >>> GPT Image / DALL-E <<<
+  # ============================================================
+
+  - DOMAIN-SUFFIX,oaiusercontent.com
+
+
+  # ============================================================
+  # >>> ComfyUI Official <<<
+  # ============================================================
+
+  - DOMAIN-SUFFIX,comfy.org
+  - DOMAIN-SUFFIX,comfyui.org
+  - DOMAIN,registry.comfy.org
+  - DOMAIN,api.comfy.org
+
+
+  # ============================================================
   # >>> CivitAI <<<
-  - DOMAIN-SUFFIX,civitai.com                   # CivitAI
-  - DOMAIN-SUFFIX,civitai.green                 # CivitAI CDN
+  # ============================================================
 
+  - DOMAIN-SUFFIX,civitai.com
+  - DOMAIN-SUFFIX,civitai.green
+
+
+  # ============================================================
   # >>> Fal AI <<<
-  - DOMAIN-SUFFIX,fal.ai                        # Fal AI
+  # ============================================================
 
+  - DOMAIN-SUFFIX,fal.ai
+
+
+  # ============================================================
   # >>> Replicate <<<
-  - DOMAIN-SUFFIX,replicate.com                 # Replicate
+  # ============================================================
 
+  - DOMAIN-SUFFIX,replicate.com
+
+
+  # ============================================================
   # >>> OpenRouter <<<
-  - DOMAIN-SUFFIX,openrouter.ai                 # OpenRouter
+  # ============================================================
 
+  - DOMAIN-SUFFIX,openrouter.ai
+
+
+  # ============================================================
   # >>> Stability AI <<<
+  # ============================================================
+
   - DOMAIN-SUFFIX,stability.ai
   - DOMAIN-SUFFIX,dreamstudio.ai
 
-# >>> Google Gemini (Bard) Core <<<
-- DOMAIN,gemini.google.com
-- DOMAIN,bard.google.com
-- DOMAIN-SUFFIX,deepmind.com
-- DOMAIN-SUFFIX,deepmind.google
-- DOMAIN-SUFFIX,proversity.goog
-- DOMAIN-KEYWORD,alamofire
 
-# >>> Gemini API & Developer Studio <<<
-- DOMAIN,ai.google.dev
-- DOMAIN,aistudio.google.com
-- DOMAIN,generativelanguage.googleapis.com
+  # ============================================================
+  # >>> Google Gemini / Google AI <<<
+  # 日本节点
+  # 注意：这部分必须优先于普通 Google 规则
+  # ============================================================
 
-# >>> Google Labs & Experimental AI <<<
-- DOMAIN-SUFFIX,labs.google
-- DOMAIN-SUFFIX,flow.google
+  # Gemini Web
+  - DOMAIN,gemini.google.com
 
-# >>> Mobile App & Backend APIs <<<
-- DOMAIN,alkalimessages-pa.googleapis.com
-- DOMAIN-SUFFIX,proactivebackend-pa.googleapis.com
-- DOMAIN-SUFFIX,aisandbox-pa.googleapis.com
-- DOMAIN-SUFFIX,robinfrontend-pa.googleapis.com
-- DOMAIN-SUFFIX,geller-pa.googleapis.com
+  # Gemini API / Google AI Studio
+  - DOMAIN,ai.google.dev
+  - DOMAIN,aistudio.google.com
+  - DOMAIN,generativelanguage.googleapis.com
 
-  # >>> Anthropic Claude <<<
-  - DOMAIN-SUFFIX,anthropic.com                 # Anthropic 公司官网及 API
-  - DOMAIN-SUFFIX,claude.ai                     # Claude 网页版核心对话域名
+  # Gemini Backend
+  - DOMAIN,alkalimessages-pa.googleapis.com
+  - DOMAIN,proactivebackend-pa.googleapis.com
+  - DOMAIN,aisandbox-pa.googleapis.com
+  - DOMAIN,robinfrontend-pa.googleapis.com
+  - DOMAIN,geller-pa.googleapis.com
 
+  # Gemini / Google AI Backend
+  - DOMAIN,alkalicore-pa.clients6.google.com
+  - DOMAIN,alkalimakersuite-pa.clients6.google.com
+  - DOMAIN,webchannel-alkalimakersuite-pa.clients6.google.com
+
+  # Google Generative AI
+  - DOMAIN-SUFFIX,generativeai.google
+
+  # Google DeepMind
+  - DOMAIN-SUFFIX,deepmind.google
+  - DOMAIN-SUFFIX,deepmind.com
+
+
+  # ============================================================
+  # >>> Google AI Labs / Creative AI <<<
+  # ============================================================
+
+  # Google Labs
+  - DOMAIN-SUFFIX,labs.google
+
+  # Google Flow
+  - DOMAIN,flow.google
+
+  # Google AI / Creative Experiments
+  - DOMAIN,labs.google
+  - DOMAIN,labs.google.com
+
+
+  # ============================================================
+  # >>> Google NotebookLM <<<
+  # ============================================================
+
+  - DOMAIN,notebooklm.google.com
+
+
+  # ============================================================
+  # >>> Google Jules <<<
+  # ============================================================
+
+  - DOMAIN,jules.google.com
+  - DOMAIN,jules.googleapis.com
+
+
+  # ============================================================
+  # >>> Google Bard Legacy <<<
+  # ============================================================
+
+  - DOMAIN,bard.google.com
+
+
+  # ============================================================
+  # >>> Anthropic / Claude <<<
+  # ============================================================
+
+  - DOMAIN-SUFFIX,anthropic.com
+  - DOMAIN-SUFFIX,claude.ai
+  - DOMAIN,api.anthropic.com
+
+
+  # ============================================================
   # >>> Microsoft Copilot / Bing AI <<<
-  - DOMAIN,sydney.bing.com                      # Copilot 聊天核心服务器
-  - DOMAIN,edgeservices.bing.com                # Edge 侧边栏 AI 接口
-  - DOMAIN,www.bingapis.com                     # Bing API 服务
-  - DOMAIN-SUFFIX,copilot.microsoft.com         # Copilot 独立入口域名
+  # ============================================================
 
+  - DOMAIN,sydney.bing.com
+  - DOMAIN,edgeservices.bing.com
+  - DOMAIN,www.bingapis.com
+  - DOMAIN-SUFFIX,copilot.microsoft.com
+
+
+  # ============================================================
   # >>> Perplexity AI <<<
-  - DOMAIN-SUFFIX,perplexity.ai                 # AI 搜索助手 Perplexity 官网
+  # ============================================================
 
-  # >>> Grok (xAI) <<<
-  - DOMAIN-SUFFIX,grok.com                      # 马斯克旗下 Grok 官网
-  - DOMAIN-SUFFIX,x.ai                          # xAI 科技公司官网
+  - DOMAIN-SUFFIX,perplexity.ai
 
+
+  # ============================================================
+  # >>> Grok / xAI <<<
+  # ============================================================
+
+  - DOMAIN-SUFFIX,grok.com
+  - DOMAIN-SUFFIX,x.ai
+
+
+  # ============================================================
   # >>> Midjourney <<<
-  - DOMAIN-SUFFIX,midjourney.com                # Midjourney 画图官网
-  - DOMAIN-SUFFIX,discord.com                   # MJ 依赖的 Discord 社区
-  - DOMAIN-SUFFIX,discord.gg                    # Discord 短链接/邀请链接
+  # ============================================================
 
-  # >>> 其他常用 AI 工具 <<<
-  - DOMAIN-SUFFIX,poe.com                       # Quora 旗下的 POE 聚合平台
-  - DOMAIN-SUFFIX,character.ai                  # 角色扮演类 AI 对话
-  - DOMAIN-SUFFIX,mistral.ai                    # Mistral AI 官网
-  - DOMAIN-SUFFIX,cohere.com                    # 企业级 AI 服务商 Cohere
+  - DOMAIN-SUFFIX,midjourney.com
+
+  # Midjourney Discord
+  # 注意：这会让整个 Discord 相关流量进入 AI 代理
+  - DOMAIN-SUFFIX,discord.com
+  - DOMAIN-SUFFIX,discord.gg
+
+
+  # ============================================================
+  # >>> Poe <<<
+  # ============================================================
+
+  - DOMAIN-SUFFIX,poe.com
+
+
+  # ============================================================
+  # >>> Character.AI <<<
+  # ============================================================
+
+  - DOMAIN-SUFFIX,character.ai
+
+
+  # ============================================================
+  # >>> Mistral AI <<<
+  # ============================================================
+
+  - DOMAIN-SUFFIX,mistral.ai
+
+
+  # ============================================================
+  # >>> Cohere <<<
+  # ============================================================
+
+  - DOMAIN-SUFFIX,cohere.com
