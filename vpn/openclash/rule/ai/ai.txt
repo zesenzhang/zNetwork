@@ -132,6 +132,12 @@ payload:
   - DOMAIN,alkalimakersuite-pa.clients6.google.com
   - DOMAIN,webchannel-alkalimakersuite-pa.clients6.google.com
 
+  # >>> Gemini Google Service Backend <<<
+  - DOMAIN,jnn-pa.googleapis.com
+  - DOMAIN,waa-pa.clients6.google.com
+  - DOMAIN,optimizationguide-pa.googleapis.com
+  - DOMAIN,content-autofill.googleapis.com
+
   # Google Generative AI
   - DOMAIN-SUFFIX,generativeai.google
 
