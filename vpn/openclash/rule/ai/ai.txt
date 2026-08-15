@@ -156,6 +156,11 @@ payload:
   - DOMAIN,maps.googleapis.com
   - DOMAIN,i.ytimg.com
   - DOMAIN,yt3.ggpht.com
+ 
+  # Google 服务接口
+  - DOMAIN,clients6.google.com
+  - DOMAIN,clients5.google.com
+  - DOMAIN,clients4.google.com
 
   # ============================================================
   # >>> Google AI Labs / Creative AI <<<
