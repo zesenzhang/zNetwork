@@ -114,6 +114,8 @@ payload:
 
   # Gemini Web
   - DOMAIN,gemini.google.com
+  - DOMAIN,gemini.gstatic.com
+  - DOMAIN,geminiweb-pa.clients6.google.com
 
   # Gemini API / Google AI Studio
   - DOMAIN,ai.google.dev
@@ -126,6 +128,8 @@ payload:
   - DOMAIN,aisandbox-pa.googleapis.com
   - DOMAIN,robinfrontend-pa.googleapis.com
   - DOMAIN,geller-pa.googleapis.com
+  - DOMAIN,lh3.googleusercontent.com
+  - DOMAIN,www.googletagmanager.com
 
   # Gemini / Google AI Backend
   - DOMAIN,alkalicore-pa.clients6.google.com
@@ -137,6 +141,7 @@ payload:
   - DOMAIN,waa-pa.clients6.google.com
   - DOMAIN,optimizationguide-pa.googleapis.com
   - DOMAIN,content-autofill.googleapis.com
+  - DOMAIN,encrypted-tbn0.gstatic.com
 
   # Google Generative AI
   - DOMAIN-SUFFIX,generativeai.google
